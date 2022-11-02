@@ -44,7 +44,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -380,7 +380,7 @@
       <AdditionalOptions> /Zm600 </AdditionalOptions>
     </ClCompile>
     <PostBuildEvent>
-      <Command>lib /out:Bin\Plot.lib Bin\Plot.lib plot\accessary\gdiplus\lib\gdiplus.lib</Command>
+      <Command>lib /out:Bin\Plotu.lib Bin\Plot.lib plot\accessary\gdiplus\lib\gdiplus.lib</Command>
     </PostBuildEvent>
     <ResourceCompile>
       <Culture>0x0804</Culture>
