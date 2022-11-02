@@ -360,3 +360,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/duilib/Lib/DuiLib.lib
+/duilib/Lib/DuiLib.exp
