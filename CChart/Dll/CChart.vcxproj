@@ -171,7 +171,7 @@
     <OutDir>.\Bin\</OutDir>
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>$(ProjectName)du</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>.\Bin\</OutDir>
@@ -407,7 +407,8 @@
       </IgnoreSpecificDefaultLibraries>
     </Link>
     <PostBuildEvent>
-      <Command>copy .\Bin\$(ProjectName)du.dll $(SolutionDir)$(Configuration)\ /Y</Command>
+      <Command>copy .\Bin\$(ProjectName)du.dll $(SolutionDir)$(Configuration)\ /Y
+lib /out:Bin\$(ProjectName)du.lib Bin\$(ProjectName)d.lib</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
