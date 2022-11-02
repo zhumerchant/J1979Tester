@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<ListContainerElement>
+		<HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="dtc_module"  align="left" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="dtc_number"  align="left" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout>
+				<Label name="dtc_naming"  align="left" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="dtc_status"  align="left" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+		</HorizontalLayout>
+   </ListContainerElement>
+</Window>

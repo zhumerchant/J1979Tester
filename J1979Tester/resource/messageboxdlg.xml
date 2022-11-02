@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout bkcolor="#FFD1E8F5" inset="1,0,1,0">
+		<VerticalLayout>
+			<RichEdit name="tip_message" readonly="true" bktrans="true" multiline="true" font="2" align="left" textcolor="#FF447AA1" />
+		</VerticalLayout>
+		<VerticalLayout height="54">
+			<HorizontalLayout>
+				<Control width="130" />
+				<Button name="btn_ok" text="%{97}" normalimage="file='button.png' source='0,0,140,53'" hotimage="file='button.png' source='140,0,280,53'" pushedimage="file='button.png' source='280,0,420,53'" disabledimage="file='button.png' source='420,0,560,53'"/>
+				<Control width="130" />
+			</HorizontalLayout>	
+		</VerticalLayout>
+		<Control height="5" bkcolor="#FFD1E8F5" />		
+	</VerticalLayout>
+</Window>

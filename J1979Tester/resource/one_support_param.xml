@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="宋体" size="13" />
+	<Font id="1" name="宋体" size="12" />
+	<ListContainerElement>
+		<HorizontalLayout height="25">
+			<HorizontalLayout width="95">
+				<CheckBox name="select_list_single" endellipsis="true" width="16" height="16" float="true" pos="2,5,18,21" hotimage="file='cb_hot.png'" pushedimage="file='cb_pushed.png'" selectedimage="file='cb_selected.png'" normalimage="file='cb_normal.png'"/>
+			</HorizontalLayout>
+			<HorizontalLayout width="95">
+				<CheckBox name="select_graph_single" endellipsis="true" width="16" height="16" float="true" pos="2,5,18,21" hotimage="file='cb_hot.png'" pushedimage="file='cb_pushed.png'" selectedimage="file='cb_selected.png'" normalimage="file='cb_normal.png'"/>
+			</HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="param_module"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="100">
+				<Label name="param_name"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="365">
+				<Label name="param_mnem"  width="405" endellipsis="true" tooltip="" align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="param_unit"  align="center" valign="center" textcolor="#FF151515" />
+			</HorizontalLayout>
+		</HorizontalLayout>
+   </ListContainerElement>
+</Window>

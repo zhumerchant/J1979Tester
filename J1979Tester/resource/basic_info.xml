@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<VerticalLayout>
+		<List name="list_vehicle_basic_info" bkcolor="#FFFFFFFF" inset="1,0,1,0" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" hscrollbar="false" menu="true">
+			<ListHeader height="25" menu="true" bkcolor="#FFFFFFFF">
+				<ListHeaderItem text="%{11}" font="2" width="200" textcolor="#FF386382" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+				<ListHeaderItem text="%{12}" font="2" textcolor="#FF386382" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+			</ListHeader>
+		</List>
+		<HorizontalLayout height="1">
+			<Container bkimage="horizontal_border.bmp" />
+		</HorizontalLayout>
+		<HorizontalLayout height="60" bkcolor="#FFD1E8F5">
+			<Button name="btn_connect" text="%{93}" font="1" enabled="true" pos="200,5,340,56" float="true" normalimage="file='Connect_button.png' source='0,0,140,53'" hotimage="file='Connect_button.png' source='140,0,280,53'" pushedimage="file='Connect_button.png' source='280,0,420,53'" disabledimage="file='Connect_button.png' source='420,0,560,53'"/>
+			<Button name="btn_disconnect" text="%{94}" font="1" enabled="false" pos="400,5,540,56" float="true" normalimage="file='Disconnect_button.png' source='0,0,140,53'" hotimage="file='Disconnect_button.png' source='140,0,280,53'" pushedimage="file='Disconnect_button.png' source='280,0,420,53'" disabledimage="file='Disconnect_button.png' source='420,0,560,53'"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

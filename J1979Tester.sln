@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "J1979Tester", "J1979Tester\J1979Tester.vcxproj", "{0013AC5E-4978-4439-8242-691B934C1081}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CChart", "CChart\Dll\CChart.vcxproj", "{2E3271A0-9459-86AC-F50E-BE0F698E5503}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "duilib\DuiLib\DuiLib.vcxproj", "{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugU|x64 = DebugU|x64
+		DebugU|x86 = DebugU|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseU|x64 = ReleaseU|x64
+		ReleaseU|x86 = ReleaseU|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+		UnicodeDebug|x64 = UnicodeDebug|x64
+		UnicodeDebug|x86 = UnicodeDebug|x86
+		UnicodeRelease|x64 = UnicodeRelease|x64
+		UnicodeRelease|x86 = UnicodeRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0013AC5E-4978-4439-8242-691B934C1081}.Debug|x64.ActiveCfg = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Debug|x64.Build.0 = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Debug|x86.ActiveCfg = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.Debug|x86.Build.0 = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.DebugU|x64.ActiveCfg = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.DebugU|x64.Build.0 = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.DebugU|x86.ActiveCfg = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.DebugU|x86.Build.0 = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.Release|x64.ActiveCfg = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Release|x64.Build.0 = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Release|x86.ActiveCfg = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.Release|x86.Build.0 = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.ReleaseU|x64.ActiveCfg = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.ReleaseU|x64.Build.0 = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.ReleaseU|x86.ActiveCfg = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.ReleaseU|x86.Build.0 = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.Template|x64.ActiveCfg = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Template|x64.Build.0 = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.Template|x86.ActiveCfg = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.Template|x86.Build.0 = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeDebug|x64.ActiveCfg = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeDebug|x64.Build.0 = Debug|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeDebug|x86.ActiveCfg = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeDebug|x86.Build.0 = Debug|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeRelease|x64.ActiveCfg = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeRelease|x64.Build.0 = Release|x64
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeRelease|x86.ActiveCfg = Release|Win32
+		{0013AC5E-4978-4439-8242-691B934C1081}.UnicodeRelease|x86.Build.0 = Release|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Debug|x64.ActiveCfg = Debug|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Debug|x64.Build.0 = Debug|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Debug|x86.Build.0 = Debug|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.DebugU|x64.ActiveCfg = DebugU|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.DebugU|x64.Build.0 = DebugU|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.DebugU|x86.ActiveCfg = DebugU|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.DebugU|x86.Build.0 = DebugU|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Release|x64.ActiveCfg = Release|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Release|x64.Build.0 = Release|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Release|x86.ActiveCfg = Release|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Release|x86.Build.0 = Release|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.ReleaseU|x64.ActiveCfg = ReleaseU|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.ReleaseU|x64.Build.0 = ReleaseU|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.ReleaseU|x86.ActiveCfg = ReleaseU|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.ReleaseU|x86.Build.0 = ReleaseU|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Template|x64.ActiveCfg = Template|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Template|x64.Build.0 = Template|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Template|x86.ActiveCfg = Template|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.Template|x86.Build.0 = Template|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeDebug|x64.ActiveCfg = Debug|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeDebug|x64.Build.0 = Debug|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeDebug|x86.ActiveCfg = Debug|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeDebug|x86.Build.0 = Debug|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeRelease|x64.ActiveCfg = Release|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeRelease|x64.Build.0 = Release|x64
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeRelease|x86.ActiveCfg = Release|Win32
+		{2E3271A0-9459-86AC-F50E-BE0F698E5503}.UnicodeRelease|x86.Build.0 = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x64.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x64.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x86.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Debug|x86.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.DebugU|x64.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.DebugU|x64.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.DebugU|x86.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.DebugU|x86.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Release|x64.ActiveCfg = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Release|x64.Build.0 = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Release|x86.ActiveCfg = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Release|x86.Build.0 = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.ReleaseU|x64.ActiveCfg = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.ReleaseU|x64.Build.0 = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.ReleaseU|x86.ActiveCfg = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.ReleaseU|x86.Build.0 = Release|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Template|x64.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Template|x64.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Template|x86.ActiveCfg = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.Template|x86.Build.0 = Debug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeDebug|x64.ActiveCfg = UnicodeDebug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeDebug|x64.Build.0 = UnicodeDebug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeDebug|x86.ActiveCfg = UnicodeDebug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeDebug|x86.Build.0 = UnicodeDebug|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x64.ActiveCfg = UnicodeRelease|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x64.Build.0 = UnicodeRelease|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x86.ActiveCfg = UnicodeRelease|Win32
+		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x86.Build.0 = UnicodeRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42236CBC-A8E0-40D1-B02A-AD751431D069}
+	EndGlobalSection
+EndGlobal

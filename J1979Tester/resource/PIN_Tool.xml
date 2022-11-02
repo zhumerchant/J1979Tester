@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,452" sizebox="4,4,6,6" roundcorner="5,5" caption="0,0,0,90" mininfo="800,475">
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout bkcolor="#FFD1E8F5" bkcolor2="#FFC6E0F1" bordercolor="#FF768D9B" bordersize="1" borderround="5,5" inset="1,0,1,0">	
+		<Control height="25" bkcolor="#FFB8DFF2" />
+		<HorizontalLayout>
+			<Control width="5" />
+			<HorizontalLayout bkcolor="#FFFFFFFF" bordercolor="#FF768D9B" bordersize="1">
+				<TabLayout name="switch">
+					<HorizontalLayout>
+						<WebBrowser name="webbrowser_tis_reg" homepage="http://www.rokwy.com:8080" autonavi="true" delaycreate="false"/>
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<WebBrowser name="webbrowser_hds_immo" homepage="http://www.rokwy.com:8080" autonavi="true" delaycreate="false"/>
+					</HorizontalLayout>
+				</TabLayout>
+			</HorizontalLayout>
+			<Control width="5" />
+		</HorizontalLayout>
+		<HorizontalLayout float="true" pos="0,0,799,26">
+			<Option pos="5, 0, 156, 26" float="true" text="%{45}" name="tis_reg" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true" />
+			<Option pos="158, 0, 309, 26" float="true" text="%{46}" name="honda_immo" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout>
+		<List name="list_support_param" bkcolor="#FFFFFFFF" inset="0,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" hscrollbar="false" menu="true">
+			<ListHeader height="25" menu="true" bkcolor="#FFFFFFFF">
+				<ListHeaderItem font="2" width="95" bodersize="1" bodercolor="#FFBDBDBD" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1">
+					<HorizontalLayout name="check_list" cover="true" height="25">
+						<CheckBox endellipsis="true" width="16" height="16"  float="true" pos="2,5,18,21" hotimage="file='cb_hot.png'" pushedimage="file='cb_pushed.png'" selectedimage="file='cb_selected.png'" normalimage="file='cb_normal.png'" />
+						<Text text="%{40}" font="2" float="true" pos="19,6,100,21"/>
+					</HorizontalLayout>
+				</ListHeaderItem>
+				<ListHeaderItem font="2" width="95" bodersize="1" bodercolor="#FFBDBDBD" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1">
+					<HorizontalLayout name="check_graph" cover="true" height="25">
+						<CheckBox endellipsis="true" width="16" height="16"  float="true" pos="2,5,18,21" hotimage="file='cb_hot.png'" pushedimage="file='cb_pushed.png'" selectedimage="file='cb_selected.png'" normalimage="file='cb_normal.png'" />
+						<Text text="%{44}" font="2" float="true" pos="19,6,100,21"/>
+					</HorizontalLayout>
+				</ListHeaderItem>
+				<ListHeaderItem text="%{35}" font="2" width="60" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+				<ListHeaderItem text="%{11}" font="2" width="100" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+				<ListHeaderItem text="%{12}" font="2" width="365" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+				<ListHeaderItem text="%{43}" font="2" width="60" textcolor="#FF151515" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+			</ListHeader>
+		</List>
+	</VerticalLayout>
+</Window>

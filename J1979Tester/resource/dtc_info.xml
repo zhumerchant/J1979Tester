@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<VerticalLayout>
+		<List name="list_vehicle_dtc_info" bkcolor="#FFFFFFFF" inset="1,0,1,0" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" hscrollbar="false" menu="true">
+			<ListHeader height="25" menu="true" bkcolor="#FFFFFFFF">
+				<ListHeaderItem text="%{11}" font="2" width="200" textcolor="#FF386382" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+				<ListHeaderItem text="%{12}" font="2" textcolor="#FF386382" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1" />
+			</ListHeader>
+		</List>
+	</VerticalLayout>
+</Window>

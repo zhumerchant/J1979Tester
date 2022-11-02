@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+  <Font id="0" name="Arial" size="13" bold="true" />
+  <Font id="1" name="Arial" size="12" bold="true" />
+  <Font id="2" name="Arial" size="12" bold="false" />
+  <Default name="Menu" value="inset=&quot;2,2,2,2&quot; itemtextpadding=&quot;30,0,0,0&quot; bkimage=&quot;file='menu_bk.png' corner='30,8,8,8'&quot; hole=&quot;false&quot;" />
+  <Menu>
+    <MenuElement name="lang" text="%{13}">
+      <HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+      </HorizontalLayout>
+      <MenuElement text="  English" />
+      <MenuElement text="  简体中文" />
+      <MenuElement text="  日本語" />
+      <MenuElement text="  繁體中文" />
+      <MenuElement text="  Čeština" />
+      <MenuElement text="  Dansk" />
+      <MenuElement text="  Deutsch" />
+      <MenuElement text="  Français" />
+      <MenuElement text="  Italiano" />
+      <MenuElement text="  Español" />
+      <MenuElement text="  Nederlands" />
+      <MenuElement text="  Svenska" />
+      <MenuElement text="  Suomi" />
+      <MenuElement text="  Norsk" />
+      <MenuElement text="  Português(Portugal)" />
+      <MenuElement text="  Português(Brasil)" />
+      <MenuElement text="  Ελληνικά" />
+      <MenuElement text="  Türkçe" />
+      <MenuElement text="  Magyar" />
+      <MenuElement text="  Slovenčina" />
+      <MenuElement text="  Polski" />
+      <MenuElement text="  Русский" />
+      <MenuElement text="  ไทย" />
+      <MenuElement text="  Română" />
+    </MenuElement>
+    <MenuElement text="%{14}">
+      <HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+      </HorizontalLayout>
+      <MenuElement text="%{15}">
+		<HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+		</HorizontalLayout>
+		<MenuElement name="temp_cel" text="%{20}"/>
+		<MenuElement name="temp_fah" text="%{21}"/>
+	  </MenuElement>
+      <MenuElement text="%{16}">
+		<HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+		</HorizontalLayout>
+		<MenuElement name="dist_km" text="%{22}"/>
+		<MenuElement name="dist_mile" text="%{23}"/>
+	  </MenuElement>
+      <MenuElement text="%{17}">
+		<HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+		</HorizontalLayout>
+		<MenuElement name="pres_kpa" text="%{24}"/>
+		<MenuElement name="pres_bar" text="%{26}"/>
+		<MenuElement name="pres_psi" text="%{25}"/>
+		<MenuElement name="pres_inh2o" text="%{28}"/>
+	  </MenuElement>
+      <MenuElement text="%{18}">
+		<HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+		</HorizontalLayout>
+		<MenuElement name="vacu_kpa" text="%{24}"/>
+		<MenuElement name="vacu_mmhg" text="%{27}"/>
+		<MenuElement name="vacu_bar" text="%{25}"/>
+		<MenuElement name="vacu_inh2o" text="%{28}"/>
+	  </MenuElement>
+      <MenuElement text="%{19}">	
+		<HorizontalLayout>
+          <Label />
+          <Label width="20" bkimage="file='tree_expand.png' source='0,0,16,16' dest='0,5,15,20'"/>
+		</HorizontalLayout>
+		<MenuElement name="mass_kg" text="%{29}"/>
+		<MenuElement name="mass_lb" text="%{30}"/>
+	  </MenuElement>
+	</MenuElement>
+  </Menu>
+</Window>

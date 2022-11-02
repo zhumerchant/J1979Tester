@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="宋体" size="13" />
+	<Font id="1" name="宋体" size="12" />
+	<ListContainerElement>
+		<HorizontalLayout height="25">
+			<HorizontalLayout width="60">
+				<Label name="param_module"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="100">
+				<Label name="param_name"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="455">
+				<Label name="param_mnem"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout  width="100">
+				<Label name="param_value"  align="center" valign="center" textcolor="#FF151515"  />
+			</HorizontalLayout>
+			<HorizontalLayout width="60">
+				<Label name="param_unit"  align="center" valign="center" textcolor="#FF151515" />
+			</HorizontalLayout>
+		</HorizontalLayout>
+   </ListContainerElement>
+</Window>
