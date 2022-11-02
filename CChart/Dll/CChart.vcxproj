@@ -676,6 +676,11 @@
   <ItemGroup>
     <Library Include="..\Source\Plot\Accessary\GDIPlus\Lib\GdiPlus.lib" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Source\Plot.vcxproj">
+      <Project>{24e90093-8dfa-2e84-88c6-a9ad73aaafa4}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

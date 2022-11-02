@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CChart", "CChart\Dll\CChart
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "duilib\DuiLib\DuiLib.vcxproj", "{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plot", "CChart\Source\Plot.vcxproj", "{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,34 @@ Global
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x64.Build.0 = UnicodeRelease|Win32
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x86.ActiveCfg = UnicodeRelease|Win32
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|x86.Build.0 = UnicodeRelease|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x64.ActiveCfg = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x64.Build.0 = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Debug|x86.Build.0 = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x64.ActiveCfg = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x64.Build.0 = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x86.ActiveCfg = DebugU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.DebugU|x86.Build.0 = DebugU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x64.ActiveCfg = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x64.Build.0 = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x86.ActiveCfg = Release|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Release|x86.Build.0 = Release|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x64.ActiveCfg = ReleaseU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x64.Build.0 = ReleaseU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x86.ActiveCfg = ReleaseU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.ReleaseU|x86.Build.0 = ReleaseU|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Template|x64.ActiveCfg = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Template|x64.Build.0 = DebugU|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Template|x86.ActiveCfg = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.Template|x86.Build.0 = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeDebug|x64.ActiveCfg = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeDebug|x64.Build.0 = Debug|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeDebug|x86.ActiveCfg = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeDebug|x86.Build.0 = Debug|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeRelease|x64.ActiveCfg = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeRelease|x64.Build.0 = Release|x64
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeRelease|x86.ActiveCfg = Release|Win32
+		{24E90093-8DFA-2E84-88C6-A9AD73AAAFA4}.UnicodeRelease|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
