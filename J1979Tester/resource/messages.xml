@@ -701,30 +701,30 @@
 		<IDS_97>OK</IDS_97>		
 	</DEU>
 	<FRA>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Véhicule Informations</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
+		<IDS_2>Surveillance</IDS_2>
+		<IDS_3>PIN Outil</IDS_3>
+		<IDS_4>J1979 Outil de Diagnostic</IDS_4>
+		<IDS_5>Version du logiciel</IDS_5>
+		<IDS_6>Vérifier la mise à jour</IDS_6>
+		<IDS_7>Tension</IDS_7>
+		<IDS_8>Version du firmware</IDS_8>
+		<IDS_9>Générales</IDS_9>
+		<IDS_10>DTC Sommaire</IDS_10>
+		<IDS_11>Paramètre Nom</IDS_11>
+		<IDS_12>Informations sur les paramètres</IDS_12>
+		<IDS_13>  Langue    </IDS_13>
+		<IDS_14>  Unité    </IDS_14>
+		<IDS_15>  Température    </IDS_15>
 		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_17>  Pression    </IDS_17>
+		<IDS_18>  Vide    </IDS_18>
+		<IDS_19>  Masse    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Kilomètre</IDS_22>
+		<IDS_23>  Mille</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -732,30 +732,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
+		<IDS_31>Actuelle</IDS_31>
+		<IDS_32>Pendante</IDS_32>
 		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
+		<IDS_34>Gèlent Trame</IDS_34>
 		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_36>Nombre</IDS_36>
+		<IDS_37>Nom</IDS_37>
+		<IDS_38>Statut</IDS_38>
+		<IDS_39>Liste des paramètres</IDS_39>
+		<IDS_40>Liste</IDS_40>
+		<IDS_41>Une vue graphique</IDS_41>
+		<IDS_42>Valeur</IDS_42>
+		<IDS_43>Unité</IDS_43>
+		<IDS_44>Graphique</IDS_44>
+		<IDS_45>Mot de passe Honda HDS</IDS_45>
+		<IDS_46>Immatriculation Toyota TIS</IDS_46>
+		<IDS_47>Établir la communication avec l’outil d’analyse</IDS_47>
+		<IDS_48>Déconnexion avec le véhicule</IDS_48>
+		<IDS_49>Établir la communication avec le véhicule</IDS_49>
+		<IDS_50>Protocole</IDS_50>
+		<IDS_51>Nombre d’écus</IDS_51>
+		<IDS_52>ID d’étalonnage</IDS_52>
+		<IDS_53>Somme de contrôle d’étalonnage</IDS_53>
+		<IDS_54>Impossible de communiquer avec le véhicule. Veuillez confirmer : \na. La clé de contact est en position ON, \nb. Vérifiez l’étiquette d’émissions ou les informations d’entretien du véhicule pour confirmer que le véhicule est équipé du système OBD,\nc. L’outil de numérisation est correctement connecté au véhicule</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -776,7 +776,7 @@
 		<IDS_72>L</IDS_72>
 		<IDS_73>m2</IDS_73>
 		<IDS_74>Km</IDS_74>
-		<IDS_75>Mile</IDS_75>
+		<IDS_75>Mille</IDS_75>
 		<IDS_76>L/100Km</IDS_76>
 		<IDS_77>KPa</IDS_77>
 		<IDS_78>Bar</IDS_78>
@@ -789,42 +789,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Nombre actuel de DTC</IDS_88>		
+		<IDS_89>Nombre Pendante de DTC</IDS_89>		
+		<IDS_90>Nombre Permanent de DTC</IDS_90>		
+		<IDS_91>Milliseconde</IDS_91>		
+		<IDS_92>Pourcentage</IDS_92>		
+		<IDS_93>        Branchez</IDS_93>		
+		<IDS_94>        Débrancher</IDS_94>		
+		<IDS_95>        Relire</IDS_95>		
+		<IDS_96>        Effacer</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</FRA>
 	<ITA>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informazioni sul veicolo</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Monitoraggio</IDS_2>
+		<IDS_3>Strumento di PIN</IDS_3>
+		<IDS_4>J1979 Strumento Diagnostico</IDS_4>
+		<IDS_5>Versione software</IDS_5>
+		<IDS_6>Controlla l'aggiornamento</IDS_6>
+		<IDS_7>Tensione</IDS_7>
+		<IDS_8>Versione firmware</IDS_8>
+		<IDS_9>Generalità</IDS_9>
+		<IDS_10>DTC Sommario</IDS_10>
+		<IDS_11>Nome parametro</IDS_11>
+		<IDS_12>Informazioni sui parametri</IDS_12>
+		<IDS_13>  Lingua    </IDS_13>
+		<IDS_14>  Unità    </IDS_14>
+		<IDS_15>  Temperatura    </IDS_15>
+		<IDS_16>  Distanza    </IDS_16>
+		<IDS_17>  Pressione    </IDS_17>
+		<IDS_18>  Vuoto    </IDS_18>
+		<IDS_19>  Messa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Chilometro</IDS_22>
+		<IDS_23>  Miglio</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -832,30 +832,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
+		<IDS_31>Attuale</IDS_31>
+		<IDS_32>In sospeso</IDS_32>
+		<IDS_33>Permanente</IDS_33>
+		<IDS_34>Fermo immagine</IDS_34>
+		<IDS_35>Modulo</IDS_35>
+		<IDS_36>Numero</IDS_36>
+		<IDS_37>Nome</IDS_37>
+		<IDS_38>Stato</IDS_38>
+		<IDS_39>Elenco dei parametri</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Una vista grafica</IDS_41>
+		<IDS_42>Valore</IDS_42>
+		<IDS_43>Unità</IDS_43>
+		<IDS_44>Grafico</IDS_44>
 		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_46>Toyota TIS registrazione</IDS_46>
+		<IDS_47>Stabilire una comunicazione con lo strumento di scansione</IDS_47>
+		<IDS_48>Disconnessione con il veicolo</IDS_48>
+		<IDS_49>Stabilire una comunicazione con il veicolo</IDS_49>
+		<IDS_50>Protocollo</IDS_50>
+		<IDS_51>Conteggio delle ECU</IDS_51>
+		<IDS_52>ID di calibrazione</IDS_52>
+		<IDS_53>Checksum di calibrazione</IDS_53>
+		<IDS_54>Impossibile comunicare con il veicolo. Si prega di confermare: \na. La chiave di accensione si trova in posizione ON, \nb. Controllare l'etichetta delle emissioni o le informazioni di servizio del veicolo per confermare che il veicolo è dotato di OBD,\nc. Lo strumento di scansione è collegato correttamente al veicolo</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -889,42 +889,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Conteggio DTC corrente</IDS_88>		
+		<IDS_89>Conteggio DTC in sospeso</IDS_89>		
+		<IDS_90>Conteggio DTC permanente</IDS_90>		
+		<IDS_91>Millisecondo</IDS_91>		
+		<IDS_92>Percento</IDS_92>		
+		<IDS_93>        Connettersi</IDS_93>		
+		<IDS_94>        Disconnettere</IDS_94>		
+		<IDS_95>        Leggi di nuovo</IDS_95>		
+		<IDS_96>        Cancellare</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</ITA>
 	<ESP>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Información del vehículo</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Monitorización</IDS_2>
+		<IDS_3>PIN Herramienta</IDS_3>
+		<IDS_4>J1979 Herramienta de Diagnóstico</IDS_4>
+		<IDS_5>Versión de software</IDS_5>
+		<IDS_6>Comprobar actualización</IDS_6>
+		<IDS_7>Voltaje</IDS_7>
+		<IDS_8>Versión del firmware</IDS_8>
+		<IDS_9>Información general</IDS_9>
+		<IDS_10>DTC Resumen</IDS_10>
+		<IDS_11>Nombre del parámetro</IDS_11>
+		<IDS_12>Información de parámetros</IDS_12>
+		<IDS_13>  Lingüística    </IDS_13>
+		<IDS_14>  Unidad    </IDS_14>
+		<IDS_15>  Temperatura    </IDS_15>
+		<IDS_16>  Distancia    </IDS_16>
+		<IDS_17>  Presión    </IDS_17>
+		<IDS_18>  Vacío    </IDS_18>
+		<IDS_19>  Masa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Kilómetro</IDS_22>
+		<IDS_23>  Milla</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -932,30 +932,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Actual</IDS_31>
+		<IDS_32>Pendiente</IDS_32>
+		<IDS_33>Permanente</IDS_33>
+		<IDS_34>Congelar fotograma</IDS_34>
+		<IDS_35>Módulo</IDS_35>
+		<IDS_36>Número</IDS_36>
+		<IDS_37>Nombre</IDS_37>
+		<IDS_38>Estado</IDS_38>
+		<IDS_39>Lista de parámetros</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Vista de un Gráfico</IDS_41>
+		<IDS_42>Valor</IDS_42>
+		<IDS_43>Unidad</IDS_43>
+		<IDS_44>Gráfico</IDS_44>
+		<IDS_45>Honda HDS Contraseña</IDS_45>
+		<IDS_46>Toyota TIS Matrícula</IDS_46>
+		<IDS_47>Establecer comunicación con la herramienta de escaneo</IDS_47>
+		<IDS_48>Desconexión con el vehículo</IDS_48>
+		<IDS_49>Establecer comunicación con el vehículo</IDS_49>
+		<IDS_50>Protocolo</IDS_50>
+		<IDS_51>Recuento de ECU</IDS_51>
+		<IDS_52>ID de calibración</IDS_52>
+		<IDS_53>Checksum de calibración</IDS_53>
+		<IDS_54>Error al comunicarse con el vehículo. Por favor, confirme: \na. La llave de contacto está en la posición ON, \nb. Revise la etiqueta de emisiones o la información de servicio del vehículo para confirmar que el vehículo está equipado con OBD,\nc. La herramienta de escaneo está conectada correctamente al vehículo</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -989,42 +989,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Recuento actual de DTC</IDS_88>		
+		<IDS_89>Recuento de DTC pendiente</IDS_89>		
+		<IDS_90>Conteo permanente de DTC</IDS_90>		
+		<IDS_91>Milisegundo</IDS_91>		
+		<IDS_92>Porcentaje</IDS_92>		
+		<IDS_93>        Conectar</IDS_93>		
+		<IDS_94>        Desconectar</IDS_94>		
+		<IDS_95>        Leer de nuevo</IDS_95>		
+		<IDS_96>        Borrar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</ESP>
 	<NLD>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Voertuig informatie</IDS_0>
 		<IDS_1>DTC</IDS_1>
 		<IDS_2>Monitoring</IDS_2>
 		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_4>J1979 Diagnostisch Tool</IDS_4>
+		<IDS_5>Softwareversie</IDS_5>
+		<IDS_6>Update controleren</IDS_6>
+		<IDS_7>Batterij Voltage</IDS_7>
+		<IDS_8>Firmware-versie</IDS_8>
+		<IDS_9>Algemene informatie</IDS_9>
+		<IDS_10>DTC Samenvatting</IDS_10>
+		<IDS_11>Parameternaam</IDS_11>
+		<IDS_12>Parameter informatie</IDS_12>
+		<IDS_13>  Taal    </IDS_13>
+		<IDS_14>  Eenheid    </IDS_14>
+		<IDS_15>  Temperatuur    </IDS_15>
+		<IDS_16>  Afstand    </IDS_16>
+		<IDS_17>  Druk    </IDS_17>
+		<IDS_18>  Vacuüm    </IDS_18>
+		<IDS_19>  Massa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
 		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_23>  Mijl</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1032,30 +1032,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
+		<IDS_31>Huidige</IDS_31>
+		<IDS_32>Aanhangig</IDS_32>
+		<IDS_33>Bestendig</IDS_33>
+		<IDS_34>Frame bevriezen</IDS_34>
 		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
+		<IDS_36>Getal</IDS_36>
+		<IDS_37>Naam</IDS_37>
 		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
+		<IDS_39>Lijst met parameters</IDS_39>
+		<IDS_40>Lijst</IDS_40>
+		<IDS_41>Eén grafiekweergave</IDS_41>
+		<IDS_42>Waarde</IDS_42>
+		<IDS_43>Eenheid</IDS_43>
+		<IDS_44>Grafiek</IDS_44>
+		<IDS_45>Honda HDS Paswoord</IDS_45>
+		<IDS_46>Toyota TIS Registratie</IDS_46>
+		<IDS_47>Communicatie tot stand brengen met scantool</IDS_47>
+		<IDS_48>Verbinding met voertuig verbreken</IDS_48>
+		<IDS_49>Communicatie met het voertuig tot stand brengen</IDS_49>
 		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_51>ECU Tellen</IDS_51>
+		<IDS_52>Kalibratie-ID</IDS_52>
+		<IDS_53>Kalibratie controlesom</IDS_53>
+		<IDS_54>Kan niet communiceren met het voertuig. Bevestig: \na. De contactsleutel bevindt zich in de AAN-stand, \nb. Controleer het emissielabel of de service-informatie van het voertuig om te bevestigen dat het voertuig is uitgerust met OBD,\nc. Scantool is correct aangesloten op het voertuig</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1089,42 +1089,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Huidige DTC-telling</IDS_88>		
+		<IDS_89>DTC-telling in behandeling</IDS_89>		
+		<IDS_90>Permanente DTC-telling</IDS_90>		
+		<IDS_91>Milliseconde</IDS_91>		
+		<IDS_92>Procent</IDS_92>		
+		<IDS_93>        Verbinden</IDS_93>		
+		<IDS_94>        Scheiden</IDS_94>		
+		<IDS_95>        Herlezen</IDS_95>		
+		<IDS_96>        Wissen</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</NLD>
 	<SVE>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Information om fordonet</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Övervakning</IDS_2>
+		<IDS_3>PIN Verktyg</IDS_3>
+		<IDS_4>J1979 Diagnostisk Verktyg</IDS_4>
+		<IDS_5>Programvaruversion</IDS_5>
+		<IDS_6>Kontrollera uppdatering</IDS_6>
+		<IDS_7>Batterispänning</IDS_7>
+		<IDS_8>Firmwareversion</IDS_8>
+		<IDS_9>Allmän information</IDS_9>
+		<IDS_10>DTC Sammanfattning</IDS_10>
+		<IDS_11>Namn på parameter</IDS_11>
+		<IDS_12>Information om parametrar</IDS_12>
+		<IDS_13>  Språk    </IDS_13>
+		<IDS_14>  Enhet    </IDS_14>
+		<IDS_15>  Temperatur    </IDS_15>
+		<IDS_16>  Avstånd    </IDS_16>
+		<IDS_17>  Tryck    </IDS_17>
+		<IDS_18>  Vakuum    </IDS_18>
+		<IDS_19>  Massa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
 		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_23>  Mil</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1132,30 +1132,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
+		<IDS_31>Aktuellt</IDS_31>
+		<IDS_32>Avvaktan</IDS_32>
 		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
+		<IDS_34>Frys ram</IDS_34>
+		<IDS_35>Modul</IDS_35>
+		<IDS_36>Nummer</IDS_36>
+		<IDS_37>Namn</IDS_37>
 		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_39>Lista över parametrar</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>En diagramvy</IDS_41>
+		<IDS_42>Valuta</IDS_42>
+		<IDS_43>Enhet</IDS_43>
+		<IDS_44>Diagram View</IDS_44>
+		<IDS_45>Honda HDS lösenord</IDS_45>
+		<IDS_46>Toyota TIS registrering</IDS_46>
+		<IDS_47>Upprätta kommunikation med skanningsverktyget</IDS_47>
+		<IDS_48>Koppla bort med fordonet</IDS_48>
+		<IDS_49>Upprätta kommunikation med fordon</IDS_49>
+		<IDS_50>Protokoll</IDS_50>
+		<IDS_51>Antal ECU</IDS_51>
+		<IDS_52>Kalibrerings-ID</IDS_52>
+		<IDS_53>Kontrollsumma för kalibrering</IDS_53>
+		<IDS_54>Det gick inte att kommunicera med fordonet. Bekräfta: \na. Tändningsnyckeln är i läget ON, \nb. Kontrollera utsläppsetiketten eller informationen om fordonsservice för att bekräfta att fordonet är OBD-utrustat,\nc. Skanningsverktyget är korrekt anslutet till fordonet</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1189,42 +1189,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Aktuellt antal DTC</IDS_88>		
+		<IDS_89>Väntande DTC-antal</IDS_89>		
+		<IDS_90>Permanent antal DTC</IDS_90>		
+		<IDS_91>Millisekund</IDS_91>		
+		<IDS_92>Procent</IDS_92>		
+		<IDS_93>        Ansluta</IDS_93>		
+		<IDS_94>        Frånkoppla</IDS_94>		
+		<IDS_95>        Läs igen</IDS_95>		
+		<IDS_96>        Radera</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</SVE>
 	<FIN>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Ajoneuvon tiedot</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Seuranta</IDS_2>
+		<IDS_3>PIN Työkalu</IDS_3>
+		<IDS_4>J1979 Diagnostinen Työkalu</IDS_4>
+		<IDS_5>Ohjelmiston versio</IDS_5>
+		<IDS_6>Tarkista päivitys</IDS_6>
+		<IDS_7>Akun jännite</IDS_7>
+		<IDS_8>Laiteohjelmiston versio</IDS_8>
+		<IDS_9>Yleistä tietoa</IDS_9>
+		<IDS_10>DTC Yhteenveto</IDS_10>
+		<IDS_11>Parametrin nimi</IDS_11>
+		<IDS_12>Parametrien tiedot</IDS_12>
+		<IDS_13>  Kieli    </IDS_13>
+		<IDS_14>  Yksikkö    </IDS_14>
+		<IDS_15>  Lämpötila    </IDS_15>
+		<IDS_16>  Etäisyys    </IDS_16>
+		<IDS_17>  Paine    </IDS_17>
+		<IDS_18>  Imuroida    </IDS_18>
+		<IDS_19>  Massa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Kilometri</IDS_22>
+		<IDS_23>  Maili</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1232,30 +1232,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Nykyinen</IDS_31>
+		<IDS_32>Vireillä</IDS_32>
+		<IDS_33>Vakituinen</IDS_33>
+		<IDS_34>Pysäytä kehys</IDS_34>
+		<IDS_35>Moduuli</IDS_35>
+		<IDS_36>Numero</IDS_36>
+		<IDS_37>Nimi</IDS_37>
+		<IDS_38>Asema</IDS_38>
+		<IDS_39>Parametrien luettelo</IDS_39>
+		<IDS_40>Luettelo</IDS_40>
+		<IDS_41>yksi kaavio</IDS_41>
+		<IDS_42>Arvo</IDS_42>
+		<IDS_43>Yksikkö</IDS_43>
+		<IDS_44>Kuvaaja</IDS_44>
+		<IDS_45>Honda HDS salasana</IDS_45>
+		<IDS_46>Toyota TIS rekisteröinti</IDS_46>
+		<IDS_47>Muodosta yhteys skannaustyökalulla</IDS_47>
+		<IDS_48>Yhteyden katkaiseminen ajoneuvoon</IDS_48>
+		<IDS_49>Muodosta yhteys ajoneuvoon</IDS_49>
+		<IDS_50>Protokolla</IDS_50>
+		<IDS_51>ECU-määrä</IDS_51>
+		<IDS_52>Kalibroinnin tunnus</IDS_52>
+		<IDS_53>Kalibroinnin tarkistussumma</IDS_53>
+		<IDS_54>Kommunikointi ajoneuvon kanssa epäonnistui. Vahvista: \na. Virta-avain on ON-asennossa, \nb. Tarkista päästömerkinnästä tai ajoneuvon huoltotiedoista, että ajoneuvo on varustettu OBD-järjestelmällä. \nc. Skannaustyökalu on kytketty ajoneuvoon oikein</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1289,42 +1289,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Nykyinen DTC-määrä</IDS_88>		
+		<IDS_89>Odottava DTC-määrä</IDS_89>		
+		<IDS_90>Pysyvä DTC-määrä</IDS_90>		
+		<IDS_91>Millisekunti</IDS_91>		
+		<IDS_92>Prosentti</IDS_92>		
+		<IDS_93>        Yhdistää</IDS_93>		
+		<IDS_94>        Irrottaa</IDS_94>		
+		<IDS_95>        Lue uudelleen</IDS_95>		
+		<IDS_96>        Tyhjentää</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</FIN>
 	<NOR>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informasjon om kjøretøyet</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Overvåking</IDS_2>
+		<IDS_3>PIN Verktøyet</IDS_3>
+		<IDS_4>J1979 Diagnostisk Verktøyet</IDS_4>
+		<IDS_5>Programvareversjon</IDS_5>
+		<IDS_6>Sjekk oppdatering</IDS_6>
+		<IDS_7>Batterispenning</IDS_7>
+		<IDS_8>Fastvareversjon</IDS_8>
+		<IDS_9>Generell informasjon</IDS_9>
+		<IDS_10>DTC Sammendrag</IDS_10>
+		<IDS_11>Navn på parameter</IDS_11>
+		<IDS_12>Informasjon om parametere</IDS_12>
+		<IDS_13>  Språk    </IDS_13>
+		<IDS_14>  Enhet    </IDS_14>
+		<IDS_15>  Temperatur    </IDS_15>
+		<IDS_16>  Avstand    </IDS_16>
+		<IDS_17>  Trykk    </IDS_17>
+		<IDS_18>  Vakuum    </IDS_18>
+		<IDS_19>  Masse    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
 		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_23>  Mil</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1332,30 +1332,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
+		<IDS_31>Nåværende</IDS_31>
+		<IDS_32>Ventende</IDS_32>
 		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
+		<IDS_34>Fryse ramme</IDS_34>
+		<IDS_35>Modul</IDS_35>
+		<IDS_36>Nummer</IDS_36>
+		<IDS_37>Navn</IDS_37>
 		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_39>Liste over parametere</IDS_39>
+		<IDS_40>Liste</IDS_40>
+		<IDS_41>Én diagramvisning</IDS_41>
+		<IDS_42>Verdi</IDS_42>
+		<IDS_43>Enhet</IDS_43>
+		<IDS_44>Diagrammet</IDS_44>
+		<IDS_45>Honda HDS passord</IDS_45>
+		<IDS_46>Toyota TIS registrering</IDS_46>
+		<IDS_47>Etabler kommunikasjon med skanneverktøy</IDS_47>
+		<IDS_48>Koble fra med kjøretøy</IDS_48>
+		<IDS_49>Etabler kommunikasjon med kjøretøyet</IDS_49>
+		<IDS_50>Protokoll</IDS_50>
+		<IDS_51>ECU-telling</IDS_51>
+		<IDS_52>Kalibrerings-ID</IDS_52>
+		<IDS_53>Sjekksum for kalibrering</IDS_53>
+		<IDS_54>Unnlot å kommunisere med kjøretøyet. Vennligst bekreft: \na. Tenningsnøkkelen er i PÅ-posisjon, \nb. Sjekk utslippsetiketten eller kjøretøyets serviceinformasjon for å bekrefte at kjøretøyet er OBD-utstyrt, \nc. Skanneverktøyet er riktig koblet til kjøretøyet</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1389,42 +1389,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Gjeldende DTC-antall</IDS_88>		
+		<IDS_89>Venter på DTC-antall</IDS_89>		
+		<IDS_90>Permanent DTC-telling</IDS_90>		
+		<IDS_91>Millisekund</IDS_91>		
+		<IDS_92>Prosent</IDS_92>		
+		<IDS_93>        Koble</IDS_93>		
+		<IDS_94>        Frakoble</IDS_94>		
+		<IDS_95>        Les igjen</IDS_95>		
+		<IDS_96>        Slette</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</NOR>
 	<PTG>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informação do Veículo</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Monitorização</IDS_2>
+		<IDS_3>PIN Ferramenta</IDS_3>
+		<IDS_4>J1979 Ferramenta de Diagnóstico</IDS_4>
+		<IDS_5>Versão de software</IDS_5>
+		<IDS_6>Ver atualização</IDS_6>
+		<IDS_7>Bateria Tensão</IDS_7>
+		<IDS_8>Versão firmware</IDS_8>
+		<IDS_9>Informação Geral</IDS_9>
+		<IDS_10>DTC Resumo</IDS_10>
+		<IDS_11>Nome do parâmetro</IDS_11>
+		<IDS_12>Informação sobre parâmetros</IDS_12>
+		<IDS_13>  Idioma    </IDS_13>
+		<IDS_14>  Unidade    </IDS_14>
+		<IDS_15>  Temperatura    </IDS_15>
+		<IDS_16>  Distância    </IDS_16>
+		<IDS_17>  Pressão    </IDS_17>
+		<IDS_18>  Vácuo    </IDS_18>
+		<IDS_19>  Missa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Quilómetro</IDS_22>
+		<IDS_23>  Milha</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1432,30 +1432,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Actual</IDS_31>
+		<IDS_32>Pendente</IDS_32>
+		<IDS_33>Permanente</IDS_33>
+		<IDS_34>Quadro de congelamento</IDS_34>
+		<IDS_35>Módulo</IDS_35>
+		<IDS_36>Número</IDS_36>
+		<IDS_37>Nome</IDS_37>
+		<IDS_38>Estado</IDS_38>
+		<IDS_39>Lista de Parâmetros</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Vista de Gráfico</IDS_41>
+		<IDS_42>Valor</IDS_42>
+		<IDS_43>Unidade</IDS_43>
+		<IDS_44>Gráfico</IDS_44>
+		<IDS_45>Honda HDS senha</IDS_45>
+		<IDS_46>Toyota TIS registo</IDS_46>
+		<IDS_47>Estabelecer comunicação com ferramenta de digitalização</IDS_47>
+		<IDS_48>Desconexão com veículo</IDS_48>
+		<IDS_49>Estabelecer comunicação com o veículo</IDS_49>
+		<IDS_50>Protocolo</IDS_50>
+		<IDS_51>Contagem de ECU</IDS_51>
+		<IDS_52>ID de calibração</IDS_52>
+		<IDS_53>Check-ins de calibração</IDS_53>
+		<IDS_54>Falhou em comunicar com o veículo. Por favor confirme: \na. A tecla de ignição está na posição ON, \nb. Verifique a etiqueta de emissões ou informações do serviço de veículos para confirmar se o veículo está equipado com OBD,\nc. A ferramenta de digitalização está conectada corretamente ao veículo</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1489,42 +1489,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Contagem atual de DTC</IDS_88>		
+		<IDS_89>Contagem pendente de DTC</IDS_89>		
+		<IDS_90>Contagem permanente de DTC</IDS_90>		
+		<IDS_91>Milissegundo</IDS_91>		
+		<IDS_92>Percentual</IDS_92>		
+		<IDS_93>        Conectar</IDS_93>		
+		<IDS_94>        Desconectar</IDS_94>		
+		<IDS_95>        Ler novamente</IDS_95>		
+		<IDS_96>        Apagar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</PTG>
 	<PTB>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informação do Veículo</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Monitorização</IDS_2>
+		<IDS_3>PIN Ferramenta</IDS_3>
+		<IDS_4>J1979 Ferramenta de Diagnóstico</IDS_4>
+		<IDS_5>Versão de software</IDS_5>
+		<IDS_6>Ver atualização</IDS_6>
+		<IDS_7>Bateria Tensão</IDS_7>
+		<IDS_8>Versão firmware</IDS_8>
+		<IDS_9>Informação Geral</IDS_9>
+		<IDS_10>DTC Resumo</IDS_10>
+		<IDS_11>Nome do parâmetro</IDS_11>
+		<IDS_12>Informação sobre parâmetros</IDS_12>
+		<IDS_13>  Idioma    </IDS_13>
+		<IDS_14>  Unidade    </IDS_14>
+		<IDS_15>  Temperatura    </IDS_15>
+		<IDS_16>  Distância    </IDS_16>
+		<IDS_17>  Pressão    </IDS_17>
+		<IDS_18>  Vácuo    </IDS_18>
+		<IDS_19>  Missa    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Quilómetro</IDS_22>
+		<IDS_23>  Milha</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1532,30 +1532,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Actual</IDS_31>
+		<IDS_32>Pendente</IDS_32>
+		<IDS_33>Permanente</IDS_33>
+		<IDS_34>Quadro de congelamento</IDS_34>
+		<IDS_35>Módulo</IDS_35>
+		<IDS_36>Número</IDS_36>
+		<IDS_37>Nome</IDS_37>
+		<IDS_38>Estado</IDS_38>
+		<IDS_39>Lista de Parâmetros</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Vista de Gráfico</IDS_41>
+		<IDS_42>Valor</IDS_42>
+		<IDS_43>Unidade</IDS_43>
+		<IDS_44>Gráfico</IDS_44>
+		<IDS_45>Honda HDS senha</IDS_45>
+		<IDS_46>Toyota TIS registo</IDS_46>
+		<IDS_47>Estabelecer comunicação com ferramenta de digitalização</IDS_47>
+		<IDS_48>Desconexão com veículo</IDS_48>
+		<IDS_49>Estabelecer comunicação com o veículo</IDS_49>
+		<IDS_50>Protocolo</IDS_50>
+		<IDS_51>Contagem de ECU</IDS_51>
+		<IDS_52>ID de calibração</IDS_52>
+		<IDS_53>Check-ins de calibração</IDS_53>
+		<IDS_54>Não se comunique com o veículo. Por favor, confirme: \na. A chave de ignição está na posição ON, \nb. Verifique as informações da etiqueta de emissões ou do serviço do veículo para confirmar se o veículo está equipado com OBD,\nc. A ferramenta de digitalização está devidamente conectada ao veículo</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1589,42 +1589,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Contagem atual de DTC</IDS_88>		
+		<IDS_89>Contagem pendente de DTC</IDS_89>		
+		<IDS_90>Contagem permanente de DTC</IDS_90>		
+		<IDS_91>Milissegundo</IDS_91>		
+		<IDS_92>Percentual</IDS_92>		
+		<IDS_93>        Conectar</IDS_93>		
+		<IDS_94>        Desconectar</IDS_94>		
+		<IDS_95>        Leia novamente</IDS_95>		
+		<IDS_96>        Apagar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</PTB>
 	<ELL>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Πληροφορίες οχήματος</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_2>Παρακολουθηση</IDS_2>
+		<IDS_3>PIN Εργαλείο</IDS_3>
+		<IDS_4>J1979 Διαγνωστικό Εργαλείο</IDS_4>
+		<IDS_5>Έκδοση λογισμικού</IDS_5>
+		<IDS_6>Έλεγχος ενημέρωσης</IDS_6>
+		<IDS_7>Τάση μπαταρίας</IDS_7>
+		<IDS_8>Έκδοση υλικολογισμικού</IDS_8>
+		<IDS_9>Γενικές Πληροφορίες</IDS_9>
+		<IDS_10>DTC Περίληψη</IDS_10>
+		<IDS_11>Όνομα παραμέτρου</IDS_11>
+		<IDS_12>Πληροφορίες παραμέτρων</IDS_12>
+		<IDS_13>  Γλώσσα    </IDS_13>
+		<IDS_14>  Μονάδα    </IDS_14>
+		<IDS_15>  Θερμοκρασία    </IDS_15>
+		<IDS_16>  Απόσταση    </IDS_16>
+		<IDS_17>  Πίεση     </IDS_17>
+		<IDS_18>  υποπίεσης     </IDS_18>
+		<IDS_19>  Μάζα    </IDS_19>
+		<IDS_20>  Κελσίου</IDS_20>
+		<IDS_21>  Φαρενάιτ</IDS_21>
+		<IDS_22>  Χιλιόμετρο</IDS_22>
+		<IDS_23>  Μίλι</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1632,30 +1632,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Τρέχων</IDS_31>
+		<IDS_32>Εκκρεμής</IDS_32>
+		<IDS_33>Μόνιμος</IDS_33>
+		<IDS_34>Πάγωμα πλαισίου</IDS_34>
+		<IDS_35>Δομοστοιχείο</IDS_35>
+		<IDS_36>Αριθμός</IDS_36>
+		<IDS_37>Όνομα</IDS_37>
+		<IDS_38>Κατάσταση</IDS_38>
+		<IDS_39>Λίστα παραμέτρων</IDS_39>
+		<IDS_40>Λίστα</IDS_40>
+		<IDS_41>Προβολή γραφήματος</IDS_41>
+		<IDS_42>Τιμή</IDS_42>
+		<IDS_43>Μονάδα</IDS_43>
+		<IDS_44>Γράφημα</IDS_44>
+		<IDS_45>Honda HDS κωδικός πρόσβασης</IDS_45>
+		<IDS_46>Toyota TIS εγγραφή</IDS_46>
+		<IDS_47>Δημιουργία επικοινωνίας με το εργαλείο σάρωσης</IDS_47>
+		<IDS_48>Αποσύνδεση με όχημα</IDS_48>
+		<IDS_49>Καθιέρωση επικοινωνίας με το όχημα</IDS_49>
+		<IDS_50>Πρωτόκολλο</IDS_50>
+		<IDS_51>Αριθμός ECU</IDS_51>
+		<IDS_52>Βαθμονόμηση ID</IDS_52>
+		<IDS_53>Βαθμονόμηση ελέγχω </IDS_53>
+		<IDS_54>Αποτυχία επικοινωνίας με το όχημα. Παρακαλώ επιβεβαιώστε: \na. Το κλειδί ανάφλεξης βρίσκεται στη θέση ON, \nb. Ελέγξτε την ετικέτα εκπομπών ή τις πληροφορίες σέρβις του οχήματος για να επιβεβαιώσετε ότι το όχημα είναι εξοπλισμένο με σύστημα OBD, \nc. Το εργαλείο σάρωσης είναι σωστά συνδεδεμένο στο όχημα</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1689,42 +1689,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Τρέχων αριθμός DTC</IDS_88>		
+		<IDS_89>Εκκρεμής αριθμός κωδικών DTC</IDS_89>		
+		<IDS_90>Μόνιμος αριθμός κωδικών DTC</IDS_90>		
+		<IDS_91>Μιλιδευτερόλεπτο</IDS_91>		
+		<IDS_92>Τοις εκατό</IDS_92>		
+		<IDS_93>        Σπικοινωνήσετε </IDS_93>		
+		<IDS_94>        Αποσυνδέω</IDS_94>		
+		<IDS_95>        Διαβάστε ξανά</IDS_95>		
+		<IDS_96>        Σβήνω</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</ELL>
 	<TRK>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Araç Bilgileri</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_2>Izleme</IDS_2>
+		<IDS_3>PIN Alet</IDS_3>
+		<IDS_4>J1979 Tanı Aracı</IDS_4>
+		<IDS_5>Yazılım sürümü</IDS_5>
+		<IDS_6>Güncellemeyi Kontrol Et</IDS_6>
+		<IDS_7>Akü Voltajı</IDS_7>
+		<IDS_8>Bellenim sürümü</IDS_8>
+		<IDS_9>Genel Bilgiler</IDS_9>
+		<IDS_10>DTC Özet</IDS_10>
+		<IDS_11>Parametre Adı</IDS_11>
+		<IDS_12>Parametre Bilgileri</IDS_12>
+		<IDS_13>  Dil    </IDS_13>
+		<IDS_14>  Birim    </IDS_14>
+		<IDS_15>  Sıcaklık    </IDS_15>
+		<IDS_16>  Uzaklık    </IDS_16>
+		<IDS_17>  Basınç    </IDS_17>
+		<IDS_18>  Vakum    </IDS_18>
+		<IDS_19>  Kütle    </IDS_19>
+		<IDS_20>  Santigrat</IDS_20>
+		<IDS_21>  Fahrenhayt</IDS_21>
+		<IDS_22>  Kilometre</IDS_22>
+		<IDS_23>  Mil</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1732,30 +1732,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Geçerli</IDS_31>
+		<IDS_32>Beklemede</IDS_32>
+		<IDS_33>Kalıcı</IDS_33>
+		<IDS_34>Çerçeveyi Dondur</IDS_34>
+		<IDS_35>Modül</IDS_35>
+		<IDS_36>Sayı</IDS_36>
+		<IDS_37>Ad</IDS_37>
+		<IDS_38>Durum</IDS_38>
+		<IDS_39>Parametre Listesi</IDS_39>
+		<IDS_40>Listesi</IDS_40>
+		<IDS_41>Tek Grafik Görünümü</IDS_41>
+		<IDS_42>Değer</IDS_42>
+		<IDS_43>Birim</IDS_43>
+		<IDS_44>Grafik</IDS_44>
+		<IDS_45>Honda HDS parola</IDS_45>
+		<IDS_46>Toyota TIS kayıt</IDS_46>
+		<IDS_47>Tarama aleti ile iletişim kurun</IDS_47>
+		<IDS_48>Araç ile bağlantının kesilmesi</IDS_48>
+		<IDS_49>Araç ile iletişim kurmak</IDS_49>
+		<IDS_50>Protokol</IDS_50>
+		<IDS_51>ECU sayısı</IDS_51>
+		<IDS_52>Kalibrasyon ID</IDS_52>
+		<IDS_53>Kalibrasyon sağlama toplamı</IDS_53>
+		<IDS_54>Araçla iletişim kurulamadı. Lütfen onaylayın: \na. Kontak tuşu AÇIK konumdadır, \nb. Aracın OBD donanımlı olduğunu doğrulamak için emisyon etiketini veya araç servis bilgilerini kontrol edin,\nc. Tarama aracı araca doğru şekilde bağlanmış</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1789,42 +1789,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Mevcut DTC sayısı</IDS_88>		
+		<IDS_89>DTC sayısı bekleniyor</IDS_89>		
+		<IDS_90>Kalıcı DTC sayısı</IDS_90>		
+		<IDS_91>Milisaniye</IDS_91>		
+		<IDS_92>Yüzde</IDS_92>		
+		<IDS_93>        Iletişime</IDS_93>		
+		<IDS_94>        Ayırmak</IDS_94>		
+		<IDS_95>        Tekrar Oku</IDS_95>		
+		<IDS_96>        Silmek</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</TRK>
 	<HUN>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Jármű információk</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Ellenőrző</IDS_2>
+		<IDS_3>PIN Eszköz</IDS_3>
+		<IDS_4>J1979 Diagnosztikai Eszköz</IDS_4>
+		<IDS_5>Szoftver verzió</IDS_5>
+		<IDS_6>Frissítés ellenőrzése</IDS_6>
+		<IDS_7>Akkumulátor Feszültség</IDS_7>
+		<IDS_8>Firmware-verzió</IDS_8>
+		<IDS_9>Általános információk</IDS_9>
+		<IDS_10>DTC Összefoglalás</IDS_10>
+		<IDS_11>Paraméter neve</IDS_11>
+		<IDS_12>Paraméter információk</IDS_12>
+		<IDS_13>  Nyelv    </IDS_13>
+		<IDS_14>  Egység    </IDS_14>
+		<IDS_15>  Hőmérséklet    </IDS_15>
+		<IDS_16>  Távolság    </IDS_16>
+		<IDS_17>  Nyomás    </IDS_17>
+		<IDS_18>  Vákuum    </IDS_18>
+		<IDS_19>  Tömeg    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Kilométer</IDS_22>
+		<IDS_23>  Mérföld</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1832,30 +1832,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Aktuális</IDS_31>
+		<IDS_32>Függő</IDS_32>
+		<IDS_33>Állandó</IDS_33>
+		<IDS_34>Képkocka rögzítése</IDS_34>
+		<IDS_35>Modul</IDS_35>
+		<IDS_36>Szám</IDS_36>
+		<IDS_37>Név</IDS_37>
+		<IDS_38>Állapot</IDS_38>
+		<IDS_39>Paraméterek listája</IDS_39>
+		<IDS_40>Listája</IDS_40>
+		<IDS_41>Egy grafikon nézet</IDS_41>
+		<IDS_42>Érték</IDS_42>
+		<IDS_43>Egység</IDS_43>
+		<IDS_44>Grafikon</IDS_44>
+		<IDS_45>Honda HDS jelszó</IDS_45>
+		<IDS_46>Toyota TIS regisztráció</IDS_46>
+		<IDS_47>Kommunikáció létrehozása a kiolvasó műszerrel (Scan Tool)</IDS_47>
+		<IDS_48>Lekapcsolódás a járműről</IDS_48>
+		<IDS_49>Kommunikáció létrehozása a járművel</IDS_49>
+		<IDS_50>Protokoll</IDS_50>
+		<IDS_51>ECU szám</IDS_51>
+		<IDS_52>Kalibrációs ID</IDS_52>
+		<IDS_53>Kalibrációs Ellenőrzőösszeg</IDS_53>
+		<IDS_54>Nem sikerült kommunikálni a járművel. Kérjük, erősítse meg: \na. A gyújtáskulcs ON állásban van, \nb. Ellenőrizze a kibocsátási címkét vagy a jármű szervizinformációit annak megerősítésére, hogy a jármű fedélzeti diagnosztikai rendszerrel rendelkezik,\nc. A kiolvasó műszer (Scan Tool) megfelelően van csatlakoztatva a járműhöz</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1889,42 +1889,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Aktuális hibakódok száma</IDS_88>		
+		<IDS_89>Függőben lévő DTC-szám</IDS_89>		
+		<IDS_90>Állandó hibakódok száma</IDS_90>		
+		<IDS_91>Ezredmásodperc</IDS_91>		
+		<IDS_92>Százalék</IDS_92>		
+		<IDS_93>        Csatlakoztassa</IDS_93>		
+		<IDS_94>        Szétkapcsol</IDS_94>		
+		<IDS_95>        Olvassa el újra</IDS_95>		
+		<IDS_96>        Törli</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</HUN>
 	<SLO>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informácie o vozidle</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
+		<IDS_2>Monitorovanie</IDS_2>
+		<IDS_3>PIN Nástroj</IDS_3>
+		<IDS_4>J1979 Diagnostický Nástroj</IDS_4>
+		<IDS_5>Verzia softvéru</IDS_5>
+		<IDS_6>Skontrolujte aktualizáciu</IDS_6>
+		<IDS_7>Napätie batérie</IDS_7>
+		<IDS_8>Verzia firmvéru</IDS_8>
+		<IDS_9>Všeobecné informácie</IDS_9>
+		<IDS_10>DTC Súhrn</IDS_10>
+		<IDS_11>Názov parametra</IDS_11>
+		<IDS_12>Informácie o parametroch</IDS_12>
+		<IDS_13>  Jazyk    </IDS_13>
+		<IDS_14>  Jednotka    </IDS_14>
+		<IDS_15>  Teplota    </IDS_15>
+		<IDS_16>  Vzdialenosť    </IDS_16>
+		<IDS_17>  Tlak    </IDS_17>
+		<IDS_18>  Vákuum    </IDS_18>
+		<IDS_19>  Hmotnosť    </IDS_19>
+		<IDS_20>  Celzia</IDS_20>
+		<IDS_21>  Fahrenheita</IDS_21>
 		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_23>  Míľa</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -1932,30 +1932,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Súčasný</IDS_31>
+		<IDS_32>Nerozhodnutý</IDS_32>
+		<IDS_33>Trvalý</IDS_33>
+		<IDS_34>Zmrazenie rámu</IDS_34>
+		<IDS_35>Modul</IDS_35>
+		<IDS_36>Číslo</IDS_36>
+		<IDS_37>Meno</IDS_37>
+		<IDS_38>Stav</IDS_38>
+		<IDS_39>Zoznam parametrov</IDS_39>
+		<IDS_40>Zoznam</IDS_40>
+		<IDS_41>Zobrazenie Grafu</IDS_41>
+		<IDS_42>Hodnota</IDS_42>
+		<IDS_43>Jednotka</IDS_43>
+		<IDS_44>Grafu</IDS_44>
+		<IDS_45>Honda HDS heslo</IDS_45>
+		<IDS_46>Toyota TIS registrácia</IDS_46>
+		<IDS_47>Nadviažte komunikáciu pomocou nástroja skenovania</IDS_47>
+		<IDS_48>Odpojenie od vozidla</IDS_48>
+		<IDS_49>Nadviažte komunikáciu s vozidlom</IDS_49>
+		<IDS_50>Protokol</IDS_50>
+		<IDS_51>Počet ECU</IDS_51>
+		<IDS_52>Kalibrácia ID</IDS_52>
+		<IDS_53>Kalibrácia kontrolný súčet</IDS_53>
+		<IDS_54>Nepodarilo sa komunikovať s vozidlom. Potvrďte: \na. Kľúč zapaľovania je v polohe ON, \nb. Skontrolujte emisný štítok alebo servisné informácie o vozidle, aby ste sa uistili, že vozidlo je vybavené systémom OBD,\nc. Skenovací nástroj je správne pripojený k vozidlu</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -1989,42 +1989,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Aktuálny počet DTC</IDS_88>		
+		<IDS_89>Čaká sa na počet DTC</IDS_89>		
+		<IDS_90>Trvalý počet DTC</IDS_90>		
+		<IDS_91>Milisekunda</IDS_91>		
+		<IDS_92>Percento</IDS_92>		
+		<IDS_93>        Pripojiť</IDS_93>		
+		<IDS_94>        Odpojiť</IDS_94>		
+		<IDS_95>        Prečítať znova</IDS_95>		
+		<IDS_96>        Vymazať</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</SLO>
 	<PLK>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informacje o pojeździe</IDS_0>
 		<IDS_1>DTC</IDS_1>
 		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_3>PIN Narzędzie</IDS_3>
+		<IDS_4>J1979 Narzędzie Diagnostyczne</IDS_4>
+		<IDS_5>Wersja oprogramowania</IDS_5>
+		<IDS_6>Sprawdź aktualizację</IDS_6>
+		<IDS_7>Napięcie</IDS_7>
+		<IDS_8>Wersja sprzętowego</IDS_8>
+		<IDS_9>Informacje ogólne</IDS_9>
+		<IDS_10>DTC Streszczenie</IDS_10>
+		<IDS_11>Nazwa parametru</IDS_11>
+		<IDS_12>Informacje o parametrach</IDS_12>
+		<IDS_13>  Język    </IDS_13>
+		<IDS_14>  Jednostka    </IDS_14>
+		<IDS_15>  Temperatura    </IDS_15>
+		<IDS_16>  Odległość    </IDS_16>
+		<IDS_17>  Ciśnienie    </IDS_17>
+		<IDS_18>  Próżnia    </IDS_18>
+		<IDS_19>  Masa    </IDS_19>
+		<IDS_20>  Celsjusza</IDS_20>
+		<IDS_21>  Fahrenheita</IDS_21>
+		<IDS_22>  Kilometr</IDS_22>
+		<IDS_23>  Mila</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -2032,30 +2032,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Aktualny</IDS_31>
+		<IDS_32>Oczekujące</IDS_32>
+		<IDS_33>Stały</IDS_33>
+		<IDS_34>Stop-klatka</IDS_34>
+		<IDS_35>Moduł</IDS_35>
+		<IDS_36>Numer</IDS_36>
+		<IDS_37>Nazwa</IDS_37>
+		<IDS_38>Stan</IDS_38>
+		<IDS_39>Lista parametrów</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Widok wykresu</IDS_41>
+		<IDS_42>Wartość</IDS_42>
+		<IDS_43>Jednostka</IDS_43>
+		<IDS_44>Wykres</IDS_44>
+		<IDS_45>Honda HDS hasło</IDS_45>
+		<IDS_46>Toyota TIS rejestracja</IDS_46>
+		<IDS_47>Nawiąż komunikację ze skanerem diagnostycznym</IDS_47>
+		<IDS_48>Rozłączanie z pojazdem</IDS_48>
+		<IDS_49>Nawiąż komunikację z pojazdem</IDS_49>
+		<IDS_50>Protokół</IDS_50>
+		<IDS_51>Liczba ECU</IDS_51>
+		<IDS_52>Kalibracji ID</IDS_52>
+		<IDS_53>Suma kontrolna kalibracji</IDS_53>
+		<IDS_54>Nie udało się nawiązać połączenia z pojazdem. Proszę potwierdzić: \na. Kluczyk zapłonu znajduje się w pozycji ON, \nb. Sprawdź etykietę emisji lub informacje serwisowe pojazdu, aby potwierdzić, że pojazd jest wyposażony w OBD. \nc. Skaner diagnostyczny jest prawidłowo podłączony do pojazdu</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -2089,42 +2089,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Bieżąca liczba kodów DTC</IDS_88>		
+		<IDS_89>Oczekiwanie liczba kodów DTC</IDS_89>		
+		<IDS_90>Stała liczba kodów DTC</IDS_90>		
+		<IDS_91>Milisekunda</IDS_91>		
+		<IDS_92>Procent</IDS_92>		
+		<IDS_93>        Połączyć</IDS_93>		
+		<IDS_94>        Odłączyć</IDS_94>		
+		<IDS_95>        Czytać znów</IDS_95>		
+		<IDS_96>        Wymazać</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</PLK>
 	<RUS>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Информация об автомобиле</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_2>Контроль</IDS_2>
+		<IDS_3>PIN инструмент</IDS_3>
+		<IDS_4>J1979 Диагностический инструмент</IDS_4>
+		<IDS_5>Версия программного обеспечения</IDS_5>
+		<IDS_6>Проверить обновление</IDS_6>
+		<IDS_7>Напряжение</IDS_7>
+		<IDS_8>Версия прошивки</IDS_8>
+		<IDS_9>Общая информация</IDS_9>
+		<IDS_10>DTC Сводка</IDS_10>
+		<IDS_11>Имя параметра</IDS_11>
+		<IDS_12>Информация о параметрах</IDS_12>
+		<IDS_13>  Язык    </IDS_13>
+		<IDS_14>  Единица    </IDS_14>
+		<IDS_15>  Температура    </IDS_15>
+		<IDS_16>  Расстояние    </IDS_16>
+		<IDS_17>  Давление    </IDS_17>
+		<IDS_18>  Вакуум    </IDS_18>
+		<IDS_19>  Масса    </IDS_19>
+		<IDS_20>  Цельсий</IDS_20>
+		<IDS_21>  Фаренгейт</IDS_21>
+		<IDS_22>  Километр</IDS_22>
+		<IDS_23>  Миля</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -2132,30 +2132,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>Текущий</IDS_31>
+		<IDS_32>Ожидаемый</IDS_32>
+		<IDS_33>Постоянный</IDS_33>
+		<IDS_34>Стоп-кадр</IDS_34>
+		<IDS_35>Модуль</IDS_35>
+		<IDS_36>Число</IDS_36>
+		<IDS_37>Имя</IDS_37>
+		<IDS_38>Статус</IDS_38>
+		<IDS_39>Список параметров</IDS_39>
+		<IDS_40>Список</IDS_40>
+		<IDS_41>Представление графика</IDS_41>
+		<IDS_42>Ценность</IDS_42>
+		<IDS_43>Единица</IDS_43>
+		<IDS_44>График</IDS_44>
+		<IDS_45>Honda HDS пароль</IDS_45>
+		<IDS_46>Toyota TIS регистрация</IDS_46>
+		<IDS_47>Установите связь с инструментом сканирования</IDS_47>
+		<IDS_48>Отключение от транспортного средства</IDS_48>
+		<IDS_49>Установить связь с транспортным средством</IDS_49>
+		<IDS_50>Протокол</IDS_50>
+		<IDS_51>ECU Количество</IDS_51>
+		<IDS_52>Калибровка ID</IDS_52>
+		<IDS_53>Калибровка контрольная сумма</IDS_53>
+		<IDS_54>Не удалось связаться с транспортным средством. Пожалуйста, подтвердите: \na. Ключ зажигания находится в положении ON, \nb. Проверьте этикетку выбросов или служебную информацию о транспортном средстве, чтобы убедиться, что транспортное средство оснащено БДС,\nc. Инструмент сканирования правильно подключен к автомобилю</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -2189,42 +2189,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Текущее количество DTC</IDS_88>		
+		<IDS_89>Ожидающий подсчет DTC</IDS_89>		
+		<IDS_90>Постоянное количество DTC</IDS_90>		
+		<IDS_91>Миллисекунда</IDS_91>		
+		<IDS_92>Процент</IDS_92>		
+		<IDS_93>        Соединять</IDS_93>		
+		<IDS_94>        Oтключите</IDS_94>		
+		<IDS_95>        Читать снова</IDS_95>		
+		<IDS_96>        Стереть</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</RUS>
 	<THA>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>ข้อมูลยานพาหนะ</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
-		<IDS_20>  Celsius</IDS_20>
-		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_2>ตรวจ สอบ</IDS_2>
+		<IDS_3>PIN เครื่องมือ</IDS_3>
+		<IDS_4>J1979 เครื่องมือวินิจฉัย</IDS_4>
+		<IDS_5>เวอร์ชันซอฟต์แวร์</IDS_5>
+		<IDS_6>ตรวจสอบการอัปเดต</IDS_6>
+		<IDS_7>แรงดันแบตเตอรี่</IDS_7>
+		<IDS_8>เวอร์ชั่นเฟิร์มแวร์</IDS_8>
+		<IDS_9>ข้อมูลทั่วไป</IDS_9>
+		<IDS_10>DTC สรุป</IDS_10>
+		<IDS_11>ชื่อพารามิเตอร์</IDS_11>
+		<IDS_12>ข้อมูลพารามิเตอร์</IDS_12>
+		<IDS_13>  ภาษา    </IDS_13>
+		<IDS_14>  หน่วย    </IDS_14>
+		<IDS_15>  อุณหภูมิ    </IDS_15>
+		<IDS_16>  ระยะทาง    </IDS_16>
+		<IDS_17>  ความดัน    </IDS_17>
+		<IDS_18>  สุญญากาศ    </IDS_18>
+		<IDS_19>  มวล    </IDS_19>
+		<IDS_20>  เซลเซียส</IDS_20>
+		<IDS_21>  ฟาเรนไฮต์</IDS_21>
+		<IDS_22>  กิโลเมตร</IDS_22>
+		<IDS_23>  ไมล์</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -2232,30 +2232,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
-		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_31>ปัจจุบัน</IDS_31>
+		<IDS_32>รอ</IDS_32>
+		<IDS_33>ถาวร</IDS_33>
+		<IDS_34>ตรึงเฟรม</IDS_34>
+		<IDS_35>โมดูล</IDS_35>
+		<IDS_36>เลข</IDS_36>
+		<IDS_37>ชื่อ</IDS_37>
+		<IDS_38>สถานะ</IDS_38>
+		<IDS_39>รายการพารามิเตอร์</IDS_39>
+		<IDS_40>รายการ</IDS_40>
+		<IDS_41>มุมมองกราฟ</IDS_41>
+		<IDS_42>คุณค่า</IDS_42>
+		<IDS_43>หน่วย</IDS_43>
+		<IDS_44>กราฟ</IDS_44>
+		<IDS_45>Honda HDS รหัสผ่าน</IDS_45>
+		<IDS_46>Toyota TIS การลงทะเบียน</IDS_46>
+		<IDS_47>สร้างการสื่อสารด้วยเครื่องมือสแกน</IDS_47>
+		<IDS_48>การตัดการเชื่อมต่อกับยานพาหนะ</IDS_48>
+		<IDS_49>สร้างการสื่อสารกับยานพาหนะ</IDS_49>
+		<IDS_50>พิธีสาร</IDS_50>
+		<IDS_51>จํานวน ECU</IDS_51>
+		<IDS_52>การสอบเทียบ ID</IDS_52>
+		<IDS_53>การสอบเทียบ เช็คซัม</IDS_53>
+		<IDS_54>ไม่สามารถสื่อสารกับยานพาหนะได้ กรุณายืนยัน: \na. กุญแจจุดระเบิดอยู่ในตําแหน่ง ON, \nb ตรวจสอบฉลากการปล่อยมลพิษหรือข้อมูลการบริการยานพาหนะเพื่อยืนยันว่ารถติดตั้ง OBD\nc เครื่องมือสแกนเชื่อมต่อกับรถอย่างถูกต้อง</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -2289,42 +2289,42 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>จํานวน DTC ปัจจุบัน</IDS_88>		
+		<IDS_89>จํานวน DTC ที่รอดําเนินการ</IDS_89>		
+		<IDS_90>จํานวน DTC ถาวร</IDS_90>		
+		<IDS_91>มิ ลลิ วินาที</IDS_91>		
+		<IDS_92>ร้อยละ</IDS_92>		
+		<IDS_93>        ติด </IDS_93>		
+		<IDS_94>        ยก เลิก</IDS_94>		
+		<IDS_95>        อ่านอีกครั้ง</IDS_95>		
+		<IDS_96>        ลบ</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</THA>
 	<ROM>
-		<IDS_0>Vehicle Information</IDS_0>
+		<IDS_0>Informații despre vehicul</IDS_0>
 		<IDS_1>DTC</IDS_1>
-		<IDS_2>Monitoring</IDS_2>
-		<IDS_3>PIN Tool</IDS_3>
-		<IDS_4>J1979 Diagnostic Tool</IDS_4>
-		<IDS_5>Software version</IDS_5>
-		<IDS_6>Check Update</IDS_6>
-		<IDS_7>Battery Voltage</IDS_7>
-		<IDS_8>Firmware version</IDS_8>
-		<IDS_9>General Information</IDS_9>
-		<IDS_10>DTC Summary</IDS_10>
-		<IDS_11>Parameter Name</IDS_11>
-		<IDS_12>Parameter Information</IDS_12>
-		<IDS_13>  Language    </IDS_13>
-		<IDS_14>  Unit    </IDS_14>
-		<IDS_15>  Temperature    </IDS_15>
-		<IDS_16>  Distance    </IDS_16>
-		<IDS_17>  Pressure    </IDS_17>
-		<IDS_18>  Vacuum    </IDS_18>
-		<IDS_19>  Mass    </IDS_19>
+		<IDS_2>Monitorizare</IDS_2>
+		<IDS_3>PIN Unealtă</IDS_3>
+		<IDS_4>J1979 Diagnosticare Unealtă</IDS_4>
+		<IDS_5>Versiunea software-ului</IDS_5>
+		<IDS_6>Verificați actualizarea</IDS_6>
+		<IDS_7>Tensiunea</IDS_7>
+		<IDS_8>Versiunea firmware-ului</IDS_8>
+		<IDS_9>Informații generale</IDS_9>
+		<IDS_10>DTC Rezumat</IDS_10>
+		<IDS_11>Nume parametru</IDS_11>
+		<IDS_12>Informații despre parametri</IDS_12>
+		<IDS_13>  Limbă    </IDS_13>
+		<IDS_14>  Unitate    </IDS_14>
+		<IDS_15>  Temperatură    </IDS_15>
+		<IDS_16>  Distanță    </IDS_16>
+		<IDS_17>  Presiune    </IDS_17>
+		<IDS_18>  Vid    </IDS_18>
+		<IDS_19>  Masă    </IDS_19>
 		<IDS_20>  Celsius</IDS_20>
 		<IDS_21>  Fahrenheit</IDS_21>
-		<IDS_22>  Kilometer</IDS_22>
-		<IDS_23>  Mile</IDS_23>
+		<IDS_22>  Kilometru</IDS_22>
+		<IDS_23>  Milă</IDS_23>
 		<IDS_24>  KPa</IDS_24>
 		<IDS_25>  psi</IDS_25>
 		<IDS_26>  bar</IDS_26>
@@ -2332,30 +2332,30 @@
 		<IDS_28>  inH2O</IDS_28>
 		<IDS_29>  KG</IDS_29>
 		<IDS_30>  lb</IDS_30>
-		<IDS_31>Current</IDS_31>
-		<IDS_32>Pending</IDS_32>
-		<IDS_33>Permanent</IDS_33>
-		<IDS_34>Freeze Frame</IDS_34>
-		<IDS_35>Module</IDS_35>
-		<IDS_36>Number</IDS_36>
-		<IDS_37>Name</IDS_37>
-		<IDS_38>Status</IDS_38>
-		<IDS_39>Parameters List</IDS_39>
-		<IDS_40>List View</IDS_40>
-		<IDS_41>One Graph View</IDS_41>
-		<IDS_42>Value</IDS_42>
-		<IDS_43>Unit</IDS_43>
-		<IDS_44>Graph View</IDS_44>
-		<IDS_45>Honda HDS password</IDS_45>
-		<IDS_46>Toyota TIS registration</IDS_46>
-		<IDS_47>Establish communication with scan tool</IDS_47>
-		<IDS_48>Disconnecting with vehicle</IDS_48>
-		<IDS_49>Establish communication with vehicle</IDS_49>
+		<IDS_31>Actuale</IDS_31>
+		<IDS_32>Până</IDS_32>
+		<IDS_33>Durabil</IDS_33>
+		<IDS_34>Congela cadru</IDS_34>
+		<IDS_35>Modul</IDS_35>
+		<IDS_36>Număr</IDS_36>
+		<IDS_37>Nume</IDS_37>
+		<IDS_38>Stare</IDS_38>
+		<IDS_39>Lista de parametri</IDS_39>
+		<IDS_40>Lista</IDS_40>
+		<IDS_41>Vizualizare Grafic</IDS_41>
+		<IDS_42>Valoare</IDS_42>
+		<IDS_43>Unitate</IDS_43>
+		<IDS_44>Grafic</IDS_44>
+		<IDS_45>Honda HDS parolă</IDS_45>
+		<IDS_46>Toyota TIS înregistrare</IDS_46>
+		<IDS_47>Stabilirea comunicării cu instrumentul de scanare</IDS_47>
+		<IDS_48>Deconectarea cu vehiculul</IDS_48>
+		<IDS_49>Stabilirea comunicării cu vehiculul</IDS_49>
 		<IDS_50>Protocol</IDS_50>
-		<IDS_51>ECU count</IDS_51>
-		<IDS_52>Calibration ID</IDS_52>
-		<IDS_53>Calibration checksum</IDS_53>
-		<IDS_54>Failed to communicate with vehicle. Please confirm: \na. Ignition key is in the ON position, \nb. Check the emissions label or vehicle service information to confirm the vehicle is OBD equipped,\nc. Scan tool is connected to the vehicle correctly</IDS_54>
+		<IDS_51>Număr ECU</IDS_51>
+		<IDS_52>Calibrare ID</IDS_52>
+		<IDS_53>Calibrare Checksum</IDS_53>
+		<IDS_54>Nu a comunicat cu vehiculul. Vă rugăm să confirmați: \na. Cheia de aprindere este în poziția ON, \nb. Verificați eticheta de emisii sau informațiile de service ale vehiculului pentru a confirma că vehiculul este echipat cu OBD,\nc. Instrumentul de scanare este conectat corect la vehicul</IDS_54>
 		<IDS_55>V</IDS_55>
 		<IDS_56>Ω</IDS_56>
 		<IDS_57>A</IDS_57>
@@ -2389,15 +2389,15 @@
 		<IDS_85>W</IDS_85>
 		<IDS_86>mA</IDS_86>		
 		<IDS_87>°F</IDS_87>		
-		<IDS_88>Current DTC count</IDS_88>		
-		<IDS_89>Pending DTC count</IDS_89>		
-		<IDS_90>Permanent DTC count</IDS_90>		
-		<IDS_91>Millisecond</IDS_91>		
-		<IDS_92>Percent</IDS_92>		
-		<IDS_93>        Connect</IDS_93>		
-		<IDS_94>        Disconnect</IDS_94>		
-		<IDS_95>        Read Again</IDS_95>		
-		<IDS_96>        Clear</IDS_96>		
+		<IDS_88>Numărul curent de DTC</IDS_88>		
+		<IDS_89>Număr DTC în așteptare</IDS_89>		
+		<IDS_90>Număr permanent de DTC</IDS_90>		
+		<IDS_91>Milisecunda</IDS_91>		
+		<IDS_92>Procent</IDS_92>		
+		<IDS_93>        Conecta</IDS_93>		
+		<IDS_94>        Deconecta</IDS_94>		
+		<IDS_95>        Citiți din nou</IDS_95>		
+		<IDS_96>        Șterge</IDS_96>		
 		<IDS_97>OK</IDS_97>		
 	</ROM>
 </Messages>
