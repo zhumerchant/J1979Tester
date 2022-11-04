@@ -35,14 +35,14 @@
 		</HorizontalLayout>
 		<HorizontalLayout height="24" float="true" pos="5,550,799,574">
 			<Text text="{c #386382}%{5}{/c}" pos="0, 5, 160, 24" float="true" showhtml="true" />
-			<Text text="-------" pos="165, 5, 215, 24" float="true" />
+			<Text name="soft_ver" text="-------" pos="165, 5, 215, 24" float="true" />
 			<Text text="{c #386382}%{8}{/c}" pos="220, 5, 380, 24" float="true" showhtml="true" />
-			<Text text="-------" pos="385, 5, 435, 24" float="true" />
-			<Button text="%{6}" textcolor="#FF337833" pos="440,5,590,18" float="true" />
+			<Text name="fw_ver" text="-.-" pos="385, 5, 435, 24" float="true" />
+			<Button name="btn_checkupate" text="%{6}" textcolor="#FF337833" pos="440,5,590,18" float="true" />
 			<Control width="5" />
 			<Control bkimage="cloud.png" pos="630,4,646,20" float="true" />
 			<Text text="{c #386382}%{7}{/c}" pos="650, 5, 750, 24" float="true" showhtml="true" />
-			<Text text="12.1" pos="755, 5, 799, 24" float="true" />
+			<Text name="batt_volt" text="--.--" pos="755, 5, 799, 24" float="true" />
 		</HorizontalLayout>	
 	</VerticalLayout>
 </Window>

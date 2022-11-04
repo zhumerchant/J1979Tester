@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<Font id="0" name="Arial" size="13" bold="true" />
+	<Font id="1" name="Arial" size="12" bold="true" />
+	<Font id="2" name="Arial" size="12" bold="false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+	<VerticalLayout bkcolor="#FFD1E8F5" inset="1,0,1,0">
+		<HorizontalLayout height="24">
+			<Text text="%{100}" textcolor="#FF447AA1" font="0" />
+		</HorizontalLayout>
+		<HorizontalLayout height="5">
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout height="50">
+			<Text text="%{101}" textcolor="#FF447AA1" font="0" />
+			<Text name="remote_soft_ver" text="-.-" textcolor="#FF447AA1" font="0" />
+			<Text text="%{103}" textcolor="#FF447AA1" font="0" />
+			<Text name="local_soft_ver" text="-.-" textcolor="#FF447AA1" font="0" />
+		</HorizontalLayout>
+		<HorizontalLayout height="24">
+			<Text text="---------------------------------------------------------------------------------------------" textcolor="#FF447AA1" font="0" />
+		</HorizontalLayout>
+		<HorizontalLayout height="50">
+			<Text text="%{102}" textcolor="#FF447AA1" font="0" />
+			<Text name="remote_fw_ver" text="-.-" textcolor="#FF447AA1" font="0" />
+			<Text text="%{104}" textcolor="#FF447AA1" font="0" />
+			<Text name="local_fw_ver" text="-.-" textcolor="#FF447AA1" font="0" />
+		</HorizontalLayout>
+		<HorizontalLayout >
+			<Control />
+		</HorizontalLayout>
+		<HorizontalLayout height="24">
+			<Text name="tip_status" text="------" align="center" textcolor="#FF447AA1" font="0" />
+		</HorizontalLayout>
+		<HorizontalLayout height="10">
+			<Control width="10" />
+			<Progress name="progress_upgrade" float="false" foreimage="file='progress_fore.png'" bkimage="file='progress_back.png'" min="0" max="100" value="0" maxheight="7" />
+			<Control width="10" />
+		</HorizontalLayout>
+		<HorizontalLayout height="10">
+			<Control />
+		</HorizontalLayout>
+		<VerticalLayout height="54">
+			<HorizontalLayout>
+				<Control width="75" />
+				<Button name="btn_upgrade" text="%{105}" enabled="false" normalimage="file='button.png' source='0,0,140,53'" hotimage="file='button.png' source='140,0,280,53'" pushedimage="file='button.png' source='280,0,420,53'" disabledimage="file='button.png' source='420,0,560,53'"/>
+				<Control width="10" />
+				<Button name="btn_ok" text="%{97}" normalimage="file='button.png' source='0,0,140,53'" hotimage="file='button.png' source='140,0,280,53'" pushedimage="file='button.png' source='280,0,420,53'" disabledimage="file='button.png' source='420,0,560,53'"/>
+				<Control width="75" />
+			</HorizontalLayout>	
+		</VerticalLayout>
+		<Control height="5" bkcolor="#FFD1E8F5" />		
+	</VerticalLayout>
+</Window>

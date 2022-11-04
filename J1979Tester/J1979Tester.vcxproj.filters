@@ -78,6 +78,15 @@
     <ClInclude Include="observer_impl_base.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CUpgradeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFTPDownloader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CYesNoMBDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="J1979Tester.cpp">
@@ -120,6 +129,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="UIMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFTPDownloader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

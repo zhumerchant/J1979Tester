@@ -14,6 +14,11 @@ bool CVehicleComm::IsChannelConnected(void)
 	return m_ptrJ2534Chan.get() != NULL;
 }
 
+bool CVehicleComm::IsDeviceOpened(void)
+{
+	return m_ptrJ2534Dev.get() != NULL;
+}
+
 bool CVehicleComm::GetCurrentDataValue(int nEcuIndex, std::map<unsigned long, std::vector<unsigned char>>& values) const
 {
 	if ((nEcuIndex < 0) || (nEcuIndex >= (int)m_vectCurrentDataValue.size()))
@@ -78,6 +83,64 @@ unsigned long CVehicleComm::GetECUIDLength(void) const
 	default:
 		return 1;
 	}
+}
+
+bool CVehicleComm::GetFirmwareVersion(LPTSTR tczFwVer)
+{
+	if (NULL == m_ptrJ2534Dev.get())
+	{
+		return false;
+	}
+	char szFirmVersion[80];
+	char szDLLVersion[80];
+	char szApiVersion[80];
+	BOOL fLicensed = FALSE;
+	char szKey[10] = { 0 };
+	char szVer[10] = { 0 };
+	char* p1, * p2;
+	int i = 0;
+
+	long lRetCode = STATUS_NOERROR;
+	try
+	{
+		lRetCode = STATUS_NOERROR;
+		m_ptrJ2534Dev->readVersion(szFirmVersion, szDLLVersion, szApiVersion);
+	}
+	catch (J2534FunctionException& exception)
+	{
+		lRetCode = exception.code();
+	}
+
+	if (STATUS_NOERROR != lRetCode)
+	{
+		return false;
+	}
+	fLicensed = FALSE;
+	szKey[0] = 'F';
+	szKey[1] = 'W';
+	szKey[2] = ':';
+	szKey[3] = '\0';
+
+	p1 = strstr(szFirmVersion, szKey);
+	if (p1)
+	{
+		p2 = p1 + strlen(szKey);
+		strcpy_s(szVer, sizeof(szVer), p2);
+		fLicensed = TRUE;
+	}
+
+	if (!fLicensed)
+	{
+		return false;
+	}
+
+	i = 0;
+	do 
+	{
+		tczFwVer[i] = szVer[i];
+	} while (0 != szVer[i++]);
+
+	return true;
 }
 
 bool CVehicleComm::GetBatteryVoltage(unsigned long& dwVoltage_mV)
@@ -953,6 +1016,125 @@ int CVehicleComm::GetEcuIndexByID(unsigned long dwID) const
 static PASSTHRU_MSG MaskPTMsg;
 static PASSTHRU_MSG PatternPTMsg;
 static PASSTHRU_MSG FCPTMsg;
+
+bool CVehicleComm::ClearDtc(void)
+{
+	static PASSTHRU_MSG TxPTMsg;
+	std::vector <PASSTHRU_MSG> rxMsgAry;
+	long lRetCode = STATUS_NOERROR;
+
+	if (NULL == m_ptrJ2534Chan.get())
+	{
+		return false;
+	}
+	if (ISO15765 == m_dwProtocolId)
+	{
+		TxPTMsg.ProtocolID = ISO15765;
+		TxPTMsg.DataSize = 5;
+		TxPTMsg.ExtraDataIndex = 5;
+
+		if (m_bIsExtCANID)
+		{
+			TxPTMsg.TxFlags = ISO15765_FRAME_PAD | CAN_29BIT_ID;
+			TxPTMsg.Data[0] = 0x18;
+			TxPTMsg.Data[1] = 0xDB;
+			TxPTMsg.Data[2] = 0x33;
+			TxPTMsg.Data[3] = 0xF1;
+			TxPTMsg.Data[4] = 0x04;
+		}
+		else
+		{
+			TxPTMsg.TxFlags = ISO15765_FRAME_PAD;
+			TxPTMsg.Data[0] = 0x00;
+			TxPTMsg.Data[1] = 0x00;
+			TxPTMsg.Data[2] = 0x07;
+			TxPTMsg.Data[3] = 0xDF;
+			TxPTMsg.Data[4] = 0x04;
+		}
+
+		rxMsgAry.clear();
+		lRetCode = ISO15765_SendRecv_U(TxPTMsg, rxMsgAry);
+		if (STATUS_NOERROR != lRetCode)
+		{
+			return false;
+		}
+		return true;
+	}
+	else if (J1850PWM == m_dwProtocolId)
+	{
+		TxPTMsg.ProtocolID = J1850PWM;
+		TxPTMsg.DataSize = 4;
+		TxPTMsg.ExtraDataIndex = 4;
+		TxPTMsg.Data[0] = 0x61;
+		TxPTMsg.Data[1] = 0x6A;
+		TxPTMsg.Data[2] = 0xF1;
+		TxPTMsg.Data[3] = 0x04;
+
+		rxMsgAry.clear();
+		lRetCode = J1850_SendRecv_U(TxPTMsg, rxMsgAry);
+		if (STATUS_NOERROR != lRetCode)
+		{
+			return false;
+		}
+		return true;
+	}
+	else if (J1850VPW == m_dwProtocolId)
+	{
+		TxPTMsg.ProtocolID = J1850VPW;
+		TxPTMsg.DataSize = 4;
+		TxPTMsg.ExtraDataIndex = 4;
+		TxPTMsg.Data[0] = 0x68;
+		TxPTMsg.Data[1] = 0x6A;
+		TxPTMsg.Data[2] = 0xF1;
+		TxPTMsg.Data[3] = 0x04;
+
+		rxMsgAry.clear();
+		lRetCode = J1850_SendRecv_U(TxPTMsg, rxMsgAry);
+		if (STATUS_NOERROR != lRetCode)
+		{
+			return false;
+		}
+		return true;
+	}
+	else if (ISO14230 == m_dwProtocolId)
+	{
+		TxPTMsg.ProtocolID = ISO14230;
+		TxPTMsg.DataSize = 4;
+		TxPTMsg.ExtraDataIndex = 4;
+		TxPTMsg.Data[0] = 0xC2;
+		TxPTMsg.Data[1] = 0x33;
+		TxPTMsg.Data[2] = 0xF1;
+		TxPTMsg.Data[3] = 0x04;
+
+		rxMsgAry.clear();
+		lRetCode = ISO14230_SendRecv_U(TxPTMsg, rxMsgAry);
+		if (STATUS_NOERROR != lRetCode)
+		{
+			return false;
+		}
+		return true;
+	}
+	else if (ISO9141 == m_dwProtocolId)
+	{
+		TxPTMsg.ProtocolID = ISO9141;
+		TxPTMsg.DataSize = 4;
+		TxPTMsg.ExtraDataIndex = 4;
+		TxPTMsg.Data[0] = 0x68;
+		TxPTMsg.Data[1] = 0x6A;
+		TxPTMsg.Data[2] = 0xF1;
+		TxPTMsg.Data[3] = 0x04;
+
+		rxMsgAry.clear();
+		lRetCode = ISO9141_SendRecv_U(TxPTMsg, rxMsgAry);
+		if (STATUS_NOERROR != lRetCode)
+		{
+			return false;
+		}
+		return true;
+	}
+
+	return false;
+}
 
 bool CVehicleComm::ScanForDtc(void)
 {

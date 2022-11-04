@@ -146,9 +146,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CBusyBoxDlg.h" />
+    <ClInclude Include="CFTPDownloader.h" />
     <ClInclude Include="CMessageBoxDlg.h" />
     <ClInclude Include="CPINToolFrame.h" />
     <ClInclude Include="CTesterMainFrame.h" />
+    <ClInclude Include="CUpgradeDlg.h" />
     <ClInclude Include="CVehicleComm.h" />
     <ClInclude Include="CVehicleDatabase.h" />
     <ClInclude Include="CVehicleDiagFrame.h" />
@@ -156,6 +158,7 @@
     <ClInclude Include="CVehicleInfoFrame.h" />
     <ClInclude Include="CVehicleMonFrame.h" />
     <ClInclude Include="CVehicleSpecFuncFrame.h" />
+    <ClInclude Include="CYesNoMBDlg.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="J1979Tester.h" />
     <ClInclude Include="j2534.h" />
@@ -168,6 +171,7 @@
     <ClInclude Include="UIMenu.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CFTPDownloader.cpp" />
     <ClCompile Include="CPINToolFrame.cpp" />
     <ClCompile Include="CTesterMainFrame.cpp" />
     <ClCompile Include="CVehicleComm.cpp" />

@@ -3,6 +3,7 @@
 #include "CVehicleComm.h"
 #include "CVehicleDatabase.h"
 #include <algorithm>
+#include "CYesNoMBDlg.h"
 
 using namespace DuiLib;
 
@@ -275,7 +276,33 @@ public:
 		}
 		else if (msg.sType == DUI_MSGTYPE_CLICK)
 		{
-			CDuiString name = msg.pSender->GetName();
+			if (msg.pSender == static_cast<CButtonUI*>(m_pm.FindControl(_T("btn_refresh"))))
+			{
+				theVehicleComm->ScanForDtc();
+				CTabLayoutUI* pControl = static_cast<CTabLayoutUI*>(m_pm.FindControl(_T("switch")));
+				if (pControl)
+				{
+					switch (pControl->GetCurSel())
+					{
+					case 0:
+						DisplayCurrentDTC();
+						break;
+					case 1:
+						DisplayPendingDTC();
+						break;
+					}
+				}
+			} 
+			else if (msg.pSender == static_cast<CButtonUI*>(m_pm.FindControl(_T("btn_clear"))))
+			{
+				CYesNoMessageBoxDlg* pYesNoDlg = new CYesNoMessageBoxDlg(CPaintManagerUI::GetMultiLanguageString(115));
+				pYesNoDlg->Create(m_hWnd, _T("YesNoMsgBoxDlg"), WS_POPUP | WS_VISIBLE, WS_EX_TOOLWINDOW, 0, 0, 450, 150);
+				pYesNoDlg->CenterWindow();
+				if (IDYES == pYesNoDlg->ShowModal())
+				{
+					theVehicleComm->ClearDtc();
+				}
+			}
 		}
 	}
 	LRESULT OnShowWindow(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)

@@ -40,6 +40,7 @@ public:
 	~CVehicleComm();
 public:
 	bool IsChannelConnected(void);
+	bool IsDeviceOpened(void);
 	const std::vector<unsigned long>& GetEcuID(void) const;
 	bool GetCurrentDataValue(int nEcuIndex, std::map<unsigned long, std::vector<unsigned char>> & values) const;
 	bool GetConfirmedDtc(int nEcuIndex, std::vector<unsigned long> & dtcs) const;
@@ -47,12 +48,14 @@ public:
 	bool GetPermanentDtc(int nEcuIndex, std::vector<unsigned long>& dtcs) const;
 	const CDuiString GetProtocolName(void) const;
 	bool GetBatteryVoltage(unsigned long & dwVoltage_mV);
+	bool GetFirmwareVersion(LPTSTR tczFwVer);
 	unsigned long GetECUIDLength(void) const;
 	bool LoadPassThruLibrary(void);
 	bool ConnectDevice(void);
 	void DisconnectDevice(void);
 	bool ScanForChannel(void);
 	bool ScanForDtc(void);
+	bool ClearDtc(void);
 	bool ScanForSupportCurrentData(void);
 	bool ScanForCurrentDataValue(void);
 	bool ScanForSupportFreezeFrameData(void);

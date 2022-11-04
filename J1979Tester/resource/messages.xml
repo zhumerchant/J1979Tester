@@ -99,6 +99,24 @@
 		<IDS_95>        Read Again</IDS_95>		
 		<IDS_96>        Clear</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Must disconnect with device before upgrade!</IDS_98>		
+		<IDS_99>Retrieving information from remote server ...</IDS_99>		
+		<IDS_100>Software and Firmware Upgrade</IDS_100>		
+		<IDS_101>Software version on server:</IDS_101>		
+		<IDS_102>Firmware version on server:</IDS_102>		
+		<IDS_103>Software version on local:</IDS_103>		
+		<IDS_104>Firmware version on local:</IDS_104>		
+		<IDS_105>Upgrade</IDS_105>		
+		<IDS_106>Connecting to server...</IDS_106>		
+		<IDS_107>Connected with server</IDS_107>		
+		<IDS_108>Downloading from server...</IDS_108>		
+		<IDS_109>Upgrading...</IDS_109>
+		<IDS_110>Completed</IDS_110>
+		<IDS_111>Upgrade failed</IDS_111>
+		<IDS_112>Yes</IDS_112>
+		<IDS_113>No</IDS_113>
+		<IDS_114>Do you want to install new software?</IDS_114>
+		<IDS_115>Do you want to clear DTC, freeze frame data and diagnostic test status information?</IDS_115>
 	</ENG>
 	<CHS>
 		<IDS_0>车辆信息</IDS_0>

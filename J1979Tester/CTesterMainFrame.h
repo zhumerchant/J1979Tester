@@ -8,8 +8,41 @@
 #include "CVehicleMonFrame.h"
 #include "CVehicleSpecFuncFrame.h"
 #include "UIMenu.h"
+#include "CUpgradeDlg.h"
 
 #define MAIN_FUNCTION_COUNT	(4)
+#define TIMERID_DEV			(1)
+
+static DWORD StartInstallation(void)
+{
+	STARTUPINFO startupInfo = { 0 };
+	PROCESS_INFORMATION processInformation;
+	BOOL result = FALSE;
+	DWORD dwResult = 0;
+
+	startupInfo.cb = sizeof(startupInfo);
+	result = ::CreateProcess(
+		_T("update\\install_package.exe"),
+		NULL,
+		NULL,
+		NULL,
+		FALSE,
+		0,
+		NULL,
+		_T("update\\"),
+		&startupInfo,
+		&processInformation);
+
+	if (!result)
+	{
+		dwResult = GetLastError();
+		return dwResult;
+	}
+
+	CloseHandle(processInformation.hThread);
+	CloseHandle(processInformation.hProcess);
+	return 0;
+}
 
 class CTesterMainFrame : public CWindowWnd, public INotifyUI
 {
@@ -17,9 +50,13 @@ class CTesterMainFrame : public CWindowWnd, public INotifyUI
 private:
     CButtonUI* m_pCloseBtn;
     CButtonUI* m_pMinBtn;
-
+	CTextUI* m_pTextBattVolt;
+	CTextUI* m_pTextSoftVer;
+	CTextUI* m_pTextFwVer;
+	BOOL m_bGotFwVer;
 	CWindowWnd* m_pSubWnds[MAIN_FUNCTION_COUNT];
 	int m_nCurWndIndex;
+	UINT m_tmrDev;
 
 public:
     CTesterMainFrame();
@@ -38,6 +75,11 @@ public:
 		ASSERT(m_pSubWnds[0] && "Failed to create frame");
 		m_pSubWnds[0]->Create(m_hWnd, NULL, UI_WNDSTYLE_CHILD, 0L, 1, 96, 795, 470);
 		::ShowWindow(*m_pSubWnds[0], SW_SHOW);
+		m_pTextSoftVer = static_cast<CTextUI*>(m_pm.FindControl(_T("soft_ver")));
+		m_pTextFwVer = static_cast<CTextUI*>(m_pm.FindControl(_T("fw_ver")));
+		m_pTextBattVolt = static_cast<CTextUI*>(m_pm.FindControl(_T("batt_volt")));
+		m_pTextSoftVer->SetText(SOFTWARE_VERSION);
+		::SetTimer(m_pm.GetPaintWindow(), TIMERID_DEV, 1000, NULL);
 	}
 
     void OnPrepare() {}
@@ -72,6 +114,32 @@ public:
 				ClientToScreen(m_hWnd, &point);
 				STRINGorID xml(_T("menu_setting.xml"));
 				pMenu->Init(NULL, xml, _T("xml"), point);
+			}
+			else if (!_tcsicmp(msg.pSender->GetName(), _T("btn_checkupate")))
+			{
+				if (theVehicleComm->IsDeviceOpened())
+				{
+					CDuiString msg = CPaintManagerUI::GetMultiLanguageString(98);
+					msg.Replace(_T("\\n"), _T("\n"));
+					CMessageBoxDlg* pMessageBox = new CMessageBoxDlg(msg);
+					pMessageBox->Create(m_hWnd, _T("MessageBoxDlg"), WS_POPUP | UI_WNDSTYLE_DIALOG, 0, 0, 0, 400, 250);
+					pMessageBox->CenterWindow();
+					pMessageBox->ShowModal();
+				}
+				else
+				{
+					CUpgradeDlg* pMessageBox = new CUpgradeDlg;
+					pMessageBox->Create(m_hWnd, _T("UpgradeDlg"), WS_POPUP | UI_WNDSTYLE_DIALOG, 0, 0, 0, 450, 300);
+					pMessageBox->CenterWindow();
+					if (1000 == pMessageBox->ShowModal())
+					{
+						Close();
+						::PostQuitMessage(0);
+						StartInstallation();
+						return;
+					}
+					m_bGotFwVer = FALSE;
+				}
 			}
 		}
 		else if (msg.sType == DUI_MSGTYPE_SELECTCHANGED)
@@ -170,6 +238,7 @@ public:
 
 	LRESULT OnDestroy(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 	{
+		::KillTimer(m_pm.GetPaintWindow(), m_tmrDev);
 		bHandled = FALSE;
 		return 0;
 	}
@@ -272,6 +341,42 @@ public:
 		return 0;
 	}
 
+	LRESULT OnTimerDev(WPARAM wParam, LPARAM lParam)
+	{
+		if ((UINT)wParam != TIMERID_DEV)
+		{
+			return 0;
+		}
+		unsigned long dwBattVolt = 0;
+		TCHAR szBattVolt[10];
+		TCHAR szFwVer[10];
+
+		if (theVehicleComm->IsDeviceOpened() && theVehicleComm->GetBatteryVoltage(dwBattVolt))
+		{
+			_stprintf_s(szBattVolt, 10, _T("%2.2f"), (float)dwBattVolt / 1000);
+			m_pTextBattVolt->SetText(szBattVolt);
+		}
+		else
+		{
+			m_pTextBattVolt->SetText(_T("--.--"));
+		}
+
+		if (!m_bGotFwVer)
+		{
+			if (theVehicleComm->IsDeviceOpened() && theVehicleComm->GetFirmwareVersion(szFwVer))
+			{
+				m_pTextFwVer->SetText(szFwVer);
+				m_pTextFwVer->Invalidate();
+				m_bGotFwVer = TRUE;
+			}
+			else
+			{
+				m_pTextFwVer->SetText(_T("-.-"));
+			}
+		}
+		return 0;
+	}
+
 	LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 	{
 		//DUITRACE(_T("CTesterMainFrame::HandleMessage=0x%x"), uMsg);
@@ -289,6 +394,7 @@ public:
 		case WM_GETMINMAXINFO: lRes = OnGetMinMaxInfo(uMsg, wParam, lParam, bHandled); break;
 		case WM_SYSCOMMAND:    lRes = OnSysCommand(uMsg, wParam, lParam, bHandled); break;
 		case WM_CHANGELANG:    lRes = OnChangeLanguage(); break;
+		case WM_TIMER:		   lRes = OnTimerDev(wParam, lParam); break;
 		default:
 			bHandled = FALSE;
 		}
