@@ -217,6 +217,24 @@
 		<IDS_95>        再次读取</IDS_95>		
 		<IDS_96>        清除</IDS_96>		
 		<IDS_97>确定</IDS_97>		
+		<IDS_98>升级软件之前必须先断开设备连接！</IDS_98>		
+		<IDS_99>从服务器获取软件和固件信息......</IDS_99>		
+		<IDS_100>软件及固件升级</IDS_100>		
+		<IDS_101>远程软件版本:</IDS_101>		
+		<IDS_102>远程固件版本:</IDS_102>		
+		<IDS_103>本地软件版本:</IDS_103>		
+		<IDS_104>本地固件版本:</IDS_104>		
+		<IDS_105>升级</IDS_105>		
+		<IDS_106>连接服务器......</IDS_106>		
+		<IDS_107>已经连接到服务器</IDS_107>		
+		<IDS_108>从服务器下载数据......</IDS_108>		
+		<IDS_109>升级中......</IDS_109>
+		<IDS_110>升级完成</IDS_110>
+		<IDS_111>升级失败</IDS_111>
+		<IDS_112>是</IDS_112>
+		<IDS_113>否</IDS_113>
+		<IDS_114>开始安装新软件？</IDS_114>
+		<IDS_115>清除故障码，冻结帧及诊断信息？</IDS_115>
 	</CHS>
 	<JPN>
 		<IDS_0>車両情報</IDS_0>
@@ -317,6 +335,24 @@
 		<IDS_95>        更新</IDS_95>		
 		<IDS_96>        クリア</IDS_96>		
 		<IDS_97>はい</IDS_97>		
+		<IDS_98>アップグレードする前にデバイスと切断する必要があります!</IDS_98>		
+		<IDS_99>リモートサーバーから情報を取得しています...</IDS_99>		
+		<IDS_100>ソフトウェアとファームウェアのアップグレード</IDS_100>		
+		<IDS_101>サーバー上のソフトウェアバージョン:</IDS_101>		
+		<IDS_102>サーバー上のファームウェアバージョン:</IDS_102>		
+		<IDS_103>ローカルのソフトウェアバージョン:</IDS_103>		
+		<IDS_104>ローカルのファームウェアバージョン:</IDS_104>		
+		<IDS_105>アップグレード</IDS_105>		
+		<IDS_106>サーバーへの接続...</IDS_106>		
+		<IDS_107>サーバーに接続</IDS_107>		
+		<IDS_108>サーバーからのダウンロード...</IDS_108>		
+		<IDS_109>アップグレード...</IDS_109>
+		<IDS_110>完了</IDS_110>
+		<IDS_111>アップグレードに失敗しました</IDS_111>
+		<IDS_112>ええ </IDS_112>
+		<IDS_113>いいえ</IDS_113>
+		<IDS_114>新しいソフトウェアをインストールしますか?</IDS_114>
+		<IDS_115>DTC、フリーズフレームデータ、診断テストステータス情報をクリアしますか?</IDS_115>
 	</JPN>
 	<CHT>
 		<IDS_0>車輛信息</IDS_0>
@@ -417,6 +453,24 @@
 		<IDS_95>        再次讀取</IDS_95>		
 		<IDS_96>        清除</IDS_96>		
 		<IDS_97>確定</IDS_97>		
+		<IDS_98>升級前必須斷開與設備的連接！</IDS_98>		
+		<IDS_99>從遠端伺服器檢索資訊...</IDS_99>		
+		<IDS_100>軟體和固件升級</IDS_100>		
+		<IDS_101>伺服器上的軟體版本：</IDS_101>		
+		<IDS_102>伺服器上的韌體版本：</IDS_102>		
+		<IDS_103>本機軟體版本：</IDS_103>		
+		<IDS_104>本地韌體版本：</IDS_104>		
+		<IDS_105>升級</IDS_105>		
+		<IDS_106>連線到伺服器...</IDS_106>		
+		<IDS_107>與伺服器連接</IDS_107>		
+		<IDS_108>從伺服器下載...</IDS_108>		
+		<IDS_109>升級...</IDS_109>
+		<IDS_110>完成</IDS_110>
+		<IDS_111>升級失敗</IDS_111>
+		<IDS_112>是</IDS_112>
+		<IDS_113>否</IDS_113>
+		<IDS_114>是否要安裝新軟體？</IDS_114>
+		<IDS_115>是否要清除 DTC、凍結幀數據和診斷測試狀態資訊？</IDS_115>
 	</CHT>
 	<CSY>
 		<IDS_0>Informace o vozidle</IDS_0>
@@ -517,6 +571,24 @@
 		<IDS_95>        znovu přečíst</IDS_95>		
 		<IDS_96>        vymazat</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Před upgradem se musí odpojit od zařízení!</IDS_98>		
+		<IDS_99>Načítání informací ze vzdáleného serveru ...</IDS_99>		
+		<IDS_100>Aktualizace softwaru a firmwaru</IDS_100>		
+		<IDS_101>Verze softwaru na serveru:</IDS_101>		
+		<IDS_102>Verze firmwaru na serveru:</IDS_102>		
+		<IDS_103>Verze softwaru na místní:</IDS_103>		
+		<IDS_104>Verze firmwaru na lokálním:</IDS_104>		
+		<IDS_105>Upgradovat</IDS_105>		
+		<IDS_106>Připojení k serveru...</IDS_106>		
+		<IDS_107>Připojeno k serveru</IDS_107>		
+		<IDS_108>Stahování ze serveru...</IDS_108>		
+		<IDS_109>Zlepšení...</IDS_109>
+		<IDS_110>Hotový</IDS_110>
+		<IDS_111>Upgrade se nezdařil</IDS_111>
+		<IDS_112>Ano</IDS_112>
+		<IDS_113>Ne</IDS_113>
+		<IDS_114>Chcete nainstalovat nový software?</IDS_114>
+		<IDS_115>Chcete vymazat DTC, zmrazená data snímků a informace o stavu diagnostických testů?</IDS_115>
 	</CSY>
 	<DAN>
 		<IDS_0>Køretøj Oplysninger</IDS_0>
@@ -617,6 +689,24 @@
 		<IDS_95>        Læs igen</IDS_95>		
 		<IDS_96>        Fjerne</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Skal afbryde forbindelsen til enheden før opgradering!</IDS_98>		
+		<IDS_99>Hentning af oplysninger fra fjernserver ...</IDS_99>		
+		<IDS_100>Software- og firmwareopgradering</IDS_100>		
+		<IDS_101>Softwareversion på server:</IDS_101>		
+		<IDS_102>Firmwareversion på serveren:</IDS_102>		
+		<IDS_103>Software version på local:</IDS_103>		
+		<IDS_104>Firmwareversion på lokal:</IDS_104>		
+		<IDS_105>Opgradere</IDS_105>		
+		<IDS_106>Opretter forbindelse til server...</IDS_106>		
+		<IDS_107>Forbundet med server</IDS_107>		
+		<IDS_108>Download fra server...</IDS_108>		
+		<IDS_109>Opgradere...</IDS_109>
+		<IDS_110>Afsluttet</IDS_110>
+		<IDS_111>Opgradere mislykkedes</IDS_111>
+		<IDS_112>Ja</IDS_112>
+		<IDS_113>Nej</IDS_113>
+		<IDS_114>Vil du installere ny software?</IDS_114>
+		<IDS_115>Vil du rydde DTC, fryse rammedata og diagnostiske teststatusoplysninger?</IDS_115>
 	</DAN>
 	<DEU>
 		<IDS_0>Fahrzeuginformationen</IDS_0>
@@ -717,6 +807,24 @@
 		<IDS_95>        Lesen wieder</IDS_95>		
 		<IDS_96>        Klar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Die Verbindung mit dem Gerät muss vor dem Upgrade getrennt werden!</IDS_98>		
+		<IDS_99>Informationen werden vom Remote-Server abgerufen ...</IDS_99>		
+		<IDS_100>Software- und Firmware-Upgrade</IDS_100>		
+		<IDS_101>Softwareversion auf dem Server:</IDS_101>		
+		<IDS_102>Firmware-Version auf dem Server:</IDS_102>		
+		<IDS_103>Softwareversion auf lokal:</IDS_103>		
+		<IDS_104>Firmware-Version auf lokal:</IDS_104>		
+		<IDS_105>Upgrade</IDS_105>		
+		<IDS_106>Verbindung zum Server wird hergestellt...</IDS_106>		
+		<IDS_107>Mit Server verbunden</IDS_107>		
+		<IDS_108>Vom Server wird heruntergeladen...</IDS_108>		
+		<IDS_109>Aufwertung...</IDS_109>
+		<IDS_110>Abgeschlossen</IDS_110>
+		<IDS_111>Upgrade fehlgeschlagen</IDS_111>
+		<IDS_112>Ja</IDS_112>
+		<IDS_113>Nein</IDS_113>
+		<IDS_114>Möchten Sie neue Software installieren?</IDS_114>
+		<IDS_115>Möchten Sie DTC, Standbilddaten und Diagnoseteststatusinformationen löschen?</IDS_115>
 	</DEU>
 	<FRA>
 		<IDS_0>Véhicule Informations</IDS_0>
@@ -817,6 +925,24 @@
 		<IDS_95>        Relire</IDS_95>		
 		<IDS_96>        Effacer</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Doit se déconnecter de l’appareil avant la mise à niveau!</IDS_98>		
+		<IDS_99>Récupération d’informations à partir d’un serveur distant ...</IDS_99>		
+		<IDS_100>Mise à niveau du logiciel et du micrologiciel</IDS_100>		
+		<IDS_101>Version du logiciel sur le serveur :</IDS_101>		
+		<IDS_102>Version du firmware sur le serveur :</IDS_102>		
+		<IDS_103>Version du logiciel en local :</IDS_103>		
+		<IDS_104>Version du firmware en local :</IDS_104>		
+		<IDS_105>Améliorer</IDS_105>		
+		<IDS_106>Connexion au serveur...</IDS_106>		
+		<IDS_107>Connecté au serveur</IDS_107>		
+		<IDS_108>Téléchargement à partir du serveur...</IDS_108>		
+		<IDS_109>Amélioration...</IDS_109>
+		<IDS_110>Terminé</IDS_110>
+		<IDS_111>Echec de la mise à niveau</IDS_111>
+		<IDS_112>Oui</IDS_112>
+		<IDS_113>Non</IDS_113>
+		<IDS_114>Voulez-vous installer un nouveau logiciel?</IDS_114>
+		<IDS_115>Voulez-vous effacer DTC, figer les données d’image et les informations d’état du test de diagnostic?</IDS_115>
 	</FRA>
 	<ITA>
 		<IDS_0>Informazioni sul veicolo</IDS_0>
@@ -917,6 +1043,24 @@
 		<IDS_95>        Leggi di nuovo</IDS_95>		
 		<IDS_96>        Cancellare</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>È necessario disconnettersi dal dispositivo prima dell'aggiornamento!</IDS_98>		
+		<IDS_99>Recupero di informazioni dal server remoto ...</IDS_99>		
+		<IDS_100>Aggiornamento software e firmware</IDS_100>		
+		<IDS_101>Versione del software sul server:</IDS_101>		
+		<IDS_102>Versione firmware sul server:</IDS_102>		
+		<IDS_103>Versione software in locale:</IDS_103>		
+		<IDS_104>Versione firmware su locale:</IDS_104>		
+		<IDS_105>Aggiornamento</IDS_105>		
+		<IDS_106>Connessione al server...</IDS_106>		
+		<IDS_107>Connesso con il server</IDS_107>		
+		<IDS_108>Download dal server...</IDS_108>		
+		<IDS_109>Estensione...</IDS_109>
+		<IDS_110>Finito</IDS_110>
+		<IDS_111>Aggiornamento non riuscito</IDS_111>
+		<IDS_112>Sì</IDS_112>
+		<IDS_113>Non</IDS_113>
+		<IDS_114>Vuoi installare un nuovo software?</IDS_114>
+		<IDS_115>Si desidera cancellare DTC, dati di fermo immagine e informazioni sullo stato dei test diagnostici?</IDS_115>
 	</ITA>
 	<ESP>
 		<IDS_0>Información del vehículo</IDS_0>
@@ -1017,6 +1161,24 @@
 		<IDS_95>        Leer de nuevo</IDS_95>		
 		<IDS_96>        Borrar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>¡Debe desconectarse con el dispositivo antes de actualizar!</IDS_98>		
+		<IDS_99>Recuperando información del servidor remoto ...</IDS_99>		
+		<IDS_100>Actualización de software y firmware</IDS_100>		
+		<IDS_101>Versión de software en el servidor:</IDS_101>		
+		<IDS_102>Versión del firmware en el servidor:</IDS_102>		
+		<IDS_103>Versión de software en local:</IDS_103>		
+		<IDS_104>Versión del firmware en local:</IDS_104>		
+		<IDS_105>Actualizar</IDS_105>		
+		<IDS_106>Conectándose al servidor...</IDS_106>		
+		<IDS_107>Conectado con el servidor</IDS_107>		
+		<IDS_108>Descargando desde el servidor...</IDS_108>		
+		<IDS_109>Mejora...</IDS_109>
+		<IDS_110>Completado</IDS_110>
+		<IDS_111>Error de actualización</IDS_111>
+		<IDS_112>Sí</IDS_112>
+		<IDS_113>No</IDS_113>
+		<IDS_114>¿Desea instalar un nuevo software?</IDS_114>
+		<IDS_115>¿Desea borrar la información de DTC, congelar fotogramas e información sobre el estado de las pruebas de diagnóstico?</IDS_115>
 	</ESP>
 	<NLD>
 		<IDS_0>Voertuig informatie</IDS_0>
@@ -1117,6 +1279,24 @@
 		<IDS_95>        Herlezen</IDS_95>		
 		<IDS_96>        Wissen</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Moet de verbinding met het apparaat verbreken voordat u een upgrade uitvoert!</IDS_98>		
+		<IDS_99>Informatie ophalen van externe server ...</IDS_99>		
+		<IDS_100>Software- en firmware-upgrade</IDS_100>		
+		<IDS_101>Softwareversie op server:</IDS_101>		
+		<IDS_102>Firmwareversie op de server:</IDS_102>		
+		<IDS_103>Softwareversie op lokaal:</IDS_103>		
+		<IDS_104>Firmwareversie op lokaal niveau:</IDS_104>		
+		<IDS_105>Opwaarderen</IDS_105>		
+		<IDS_106>Verbinding maken met server...</IDS_106>		
+		<IDS_107>Verbonden met server</IDS_107>		
+		<IDS_108>Downloaden van server...</IDS_108>		
+		<IDS_109>Upgraden...</IDS_109>
+		<IDS_110>Volbracht</IDS_110>
+		<IDS_111>Upgrade mislukt</IDS_111>
+		<IDS_112>Ja</IDS_112>
+		<IDS_113>Nee</IDS_113>
+		<IDS_114>Wilt u nieuwe software installeren?</IDS_114>
+		<IDS_115>Wilt u DTC-, freezeframegegevens en diagnostische teststatusinformatie wissen?</IDS_115>
 	</NLD>
 	<SVE>
 		<IDS_0>Information om fordonet</IDS_0>
@@ -1217,6 +1397,24 @@
 		<IDS_95>        Läs igen</IDS_95>		
 		<IDS_96>        Radera</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Måste koppla bort enheten innan uppgradering!</IDS_98>		
+		<IDS_99>Hämtar information från fjärrservern ...</IDS_99>		
+		<IDS_100>Uppgradering av programvara och fast programvara</IDS_100>		
+		<IDS_101>Programvaruversion på servern:</IDS_101>		
+		<IDS_102>Firmwareversion på servern:</IDS_102>		
+		<IDS_103>Programvaruversion på lokal:</IDS_103>		
+		<IDS_104>Firmwareversion på lokal:</IDS_104>		
+		<IDS_105>Uppgradera</IDS_105>		
+		<IDS_106>Ansluter till servern...</IDS_106>		
+		<IDS_107>Ansluten med server</IDS_107>		
+		<IDS_108>Nedladdning från server...</IDS_108>		
+		<IDS_109>Uppgradering...</IDS_109>
+		<IDS_110>Fullbordad</IDS_110>
+		<IDS_111>Uppgraderingen misslyckades</IDS_111>
+		<IDS_112>Ja</IDS_112>
+		<IDS_113>Nej</IDS_113>
+		<IDS_114>Vill du installera ny programvara?</IDS_114>
+		<IDS_115>Vill du rensa DTC, frysa ramdata och diagnostisk teststatusinformation?</IDS_115>
 	</SVE>
 	<FIN>
 		<IDS_0>Ajoneuvon tiedot</IDS_0>
@@ -1317,6 +1515,24 @@
 		<IDS_95>        Lue uudelleen</IDS_95>		
 		<IDS_96>        Tyhjentää</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Yhteys laitteeseen on katkaistava ennen päivitystä!</IDS_98>		
+		<IDS_99>Tietojen noutaminen etäpalvelimelta ...</IDS_99>		
+		<IDS_100>Ohjelmisto- ja laiteohjelmistopäivitys</IDS_100>		
+		<IDS_101>Ohjelmistoversio palvelimella:</IDS_101>		
+		<IDS_102>Laiteohjelmistoversio palvelimella:</IDS_102>		
+		<IDS_103>Ohjelmistoversio paikallisesti:</IDS_103>		
+		<IDS_104>Laiteohjelmistoversio paikallisesti:</IDS_104>		
+		<IDS_105>Päivittää</IDS_105>		
+		<IDS_106>Yhteyden muodostaminen palvelimeen...</IDS_106>		
+		<IDS_107>Yhdistetty palvelimeen</IDS_107>		
+		<IDS_108>Lataaminen palvelimelta...</IDS_108>		
+		<IDS_109>Päivittäminen...</IDS_109>
+		<IDS_110>Valmis</IDS_110>
+		<IDS_111>Päivitys epäonnistui</IDS_111>
+		<IDS_112>Kyllä</IDS_112>
+		<IDS_113>Ei</IDS_113>
+		<IDS_114>Haluatko asentaa uuden ohjelmiston?</IDS_114>
+		<IDS_115>Haluatko tyhjentää DTC: n, jäädyttää kehystiedot ja diagnostiikkatestin tilatiedot?</IDS_115>
 	</FIN>
 	<NOR>
 		<IDS_0>Informasjon om kjøretøyet</IDS_0>
@@ -1417,6 +1633,24 @@
 		<IDS_95>        Les igjen</IDS_95>		
 		<IDS_96>        Slette</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Må koble fra enheten før oppgradering!</IDS_98>		
+		<IDS_99>Henter informasjon fra ekstern server ...</IDS_99>		
+		<IDS_100>Programvare- og fastvareoppgradering</IDS_100>		
+		<IDS_101>Programvareversjon på server:</IDS_101>		
+		<IDS_102>Fastvareversjon på server:</IDS_102>		
+		<IDS_103>Programvareversjon på lokalt:</IDS_103>		
+		<IDS_104>Fastvareversjon på lokalt:</IDS_104>		
+		<IDS_105>Oppgradere</IDS_105>		
+		<IDS_106>Koble til server...</IDS_106>		
+		<IDS_107>Koblet til serveren</IDS_107>		
+		<IDS_108>Laster ned fra server ...</IDS_108>		
+		<IDS_109>Oppgradering...</IDS_109>
+		<IDS_110>Fullført</IDS_110>
+		<IDS_111>Oppgraderingen mislyktes</IDS_111>
+		<IDS_112>Ja</IDS_112>
+		<IDS_113>Nei</IDS_113>
+		<IDS_114>Vil du installere ny programvare?</IDS_114>
+		<IDS_115>Vil du fjerne DTC, fryse rammedata og informasjon om diagnoseteststatus?</IDS_115>
 	</NOR>
 	<PTG>
 		<IDS_0>Informação do Veículo</IDS_0>
@@ -1517,6 +1751,24 @@
 		<IDS_95>        Ler novamente</IDS_95>		
 		<IDS_96>        Apagar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Deve desligar-se com o dispositivo antes da atualização!</IDS_98>		
+		<IDS_99>A recuperar informações do servidor remoto...</IDS_99>		
+		<IDS_100>Atualização de Software e Firmware</IDS_100>		
+		<IDS_101>Versão de software no servidor:</IDS_101>		
+		<IDS_102>Versão firmware no servidor:</IDS_102>		
+		<IDS_103>Versão de software em local:</IDS_103>		
+		<IDS_104>Versão firmware no local:</IDS_104>		
+		<IDS_105>Atualização</IDS_105>		
+		<IDS_106>Ligação ao servidor...</IDS_106>		
+		<IDS_107>Conectado com servidor</IDS_107>		
+		<IDS_108>Download do servidor...</IDS_108>		
+		<IDS_109>Melhorando...</IDS_109>
+		<IDS_110>Concluído</IDS_110>
+		<IDS_111>A atualização falhou</IDS_111>
+		<IDS_112>Sim</IDS_112>
+		<IDS_113>Não</IDS_113>
+		<IDS_114>Pretende instalar um novo software?</IDS_114>
+		<IDS_115>Deseja limpar o DTC, congelar dados de fotogramas e informações sobre o estado do teste de diagnóstico?</IDS_115>
 	</PTG>
 	<PTB>
 		<IDS_0>Informação do Veículo</IDS_0>
@@ -1617,6 +1869,24 @@
 		<IDS_95>        Leia novamente</IDS_95>		
 		<IDS_96>        Apagar</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Deve desligar-se com o dispositivo antes da atualização!</IDS_98>		
+		<IDS_99>A recuperar informações do servidor remoto...</IDS_99>		
+		<IDS_100>Atualização de Software e Firmware</IDS_100>		
+		<IDS_101>Versão de software no servidor:</IDS_101>		
+		<IDS_102>Versão firmware no servidor:</IDS_102>		
+		<IDS_103>Versão de software em local:</IDS_103>		
+		<IDS_104>Versão firmware no local:</IDS_104>		
+		<IDS_105>Atualização</IDS_105>		
+		<IDS_106>Ligação ao servidor...</IDS_106>		
+		<IDS_107>Conectado com servidor</IDS_107>		
+		<IDS_108>Download do servidor...</IDS_108>		
+		<IDS_109>Melhorando...</IDS_109>
+		<IDS_110>Concluído</IDS_110>
+		<IDS_111>A atualização falhou</IDS_111>
+		<IDS_112>Sim</IDS_112>
+		<IDS_113>Não</IDS_113>
+		<IDS_114>Pretende instalar um novo software?</IDS_114>
+		<IDS_115>Deseja limpar o DTC, congelar dados de fotogramas e informações sobre o estado do teste de diagnóstico?</IDS_115>
 	</PTB>
 	<ELL>
 		<IDS_0>Πληροφορίες οχήματος</IDS_0>
@@ -1717,6 +1987,24 @@
 		<IDS_95>        Διαβάστε ξανά</IDS_95>		
 		<IDS_96>        Σβήνω</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Πρέπει να αποσυνδεθείτε από τη συσκευή πριν από την αναβάθμιση!</IDS_98>		
+		<IDS_99>Ανάκτηση πληροφοριών από απομακρυσμένο διακομιστή ...</IDS_99>		
+		<IDS_100>Αναβάθμιση λογισμικού και υλικολογισμικού</IDS_100>		
+		<IDS_101>Έκδοση λογισμικού στο διακομιστή:</IDS_101>		
+		<IDS_102>Έκδοση υλικολογισμικού στο διακομιστή:</IDS_102>		
+		<IDS_103>Έκδοση λογισμικού σε τοπικό επίπεδο:</IDS_103>		
+		<IDS_104>Έκδοση υλικολογισμικού σε τοπικό επίπεδο:</IDS_104>		
+		<IDS_105>Αναβαθμίζω</IDS_105>		
+		<IDS_106>Σύνδεση στο διακομιστή...</IDS_106>		
+		<IDS_107>Σύνδεση με διακομιστή</IDS_107>		
+		<IDS_108>Λήψη από το διακομιστή...</IDS_108>		
+		<IDS_109>Αναβάθμιση...</IDS_109>
+		<IDS_110>Ολοκληρωθεί</IDS_110>
+		<IDS_111>Η αναβάθμιση απέτυχε</IDS_111>
+		<IDS_112>Ναι</IDS_112>
+		<IDS_113>Όχι</IDS_113>
+		<IDS_114>Θέλετε να εγκαταστήσετε νέο λογισμικό;</IDS_114>
+		<IDS_115>Θέλετε να διαγράψετε τον κωδικό DTC, να παγώσετε τα δεδομένα πλαισίου και τις πληροφορίες κατάστασης διαγνωστικού ελέγχου;</IDS_115>
 	</ELL>
 	<TRK>
 		<IDS_0>Araç Bilgileri</IDS_0>
@@ -1817,6 +2105,24 @@
 		<IDS_95>        Tekrar Oku</IDS_95>		
 		<IDS_96>        Silmek</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Yükseltmeden önce cihazla bağlantınız kesilmelidir!</IDS_98>		
+		<IDS_99>Uzak sunucudan bilgi alınıyor ...</IDS_99>		
+		<IDS_100>Yazılım ve Ürün Yazılımı Yükseltmesi</IDS_100>		
+		<IDS_101>Sunucudaki yazılım sürümü:</IDS_101>		
+		<IDS_102>Sunucudaki üretici yazılımı sürümü:</IDS_102>		
+		<IDS_103>Yerel yazılım sürümü:</IDS_103>		
+		<IDS_104>Yerel olarak ürün yazılımı sürümü:</IDS_104>		
+		<IDS_105>Yükseltmek</IDS_105>		
+		<IDS_106>Sunucuya bağlanılıyor...</IDS_106>		
+		<IDS_107>Sunucuya bağlı</IDS_107>		
+		<IDS_108>Sunucudan indiriliyor...</IDS_108>		
+		<IDS_109>Yükseltme...</IDS_109>
+		<IDS_110>Tamamlandı</IDS_110>
+		<IDS_111>Yükseltme başarısız oldu</IDS_111>
+		<IDS_112>Tamam</IDS_112>
+		<IDS_113>Hayır</IDS_113>
+		<IDS_114>Yeni yazılım yüklemek istiyor musunuz?</IDS_114>
+		<IDS_115>DTC, çerçeve verilerini dondurmak ve tanılama testi durumu bilgilerini temizlemek istiyor musunuz?</IDS_115>
 	</TRK>
 	<HUN>
 		<IDS_0>Jármű információk</IDS_0>
@@ -1917,6 +2223,24 @@
 		<IDS_95>        Olvassa el újra</IDS_95>		
 		<IDS_96>        Törli</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>A frissítés előtt le kell választania az eszközt!</IDS_98>		
+		<IDS_99>Információk lekérése távoli szerverről ...</IDS_99>		
+		<IDS_100>Szoftver- és firmware-frissítés</IDS_100>		
+		<IDS_101>Szoftver verzió a kiszolgálón:</IDS_101>		
+		<IDS_102>Firmware verzió a kiszolgálón:</IDS_102>		
+		<IDS_103>Szoftver verzió helyi:</IDS_103>		
+		<IDS_104>Firmware-verzió helyi szinten:</IDS_104>		
+		<IDS_105>Feljavít</IDS_105>		
+		<IDS_106>Csatlakozás a szerverhez...</IDS_106>		
+		<IDS_107>Csatlakoztatva a szerverhez</IDS_107>		
+		<IDS_108>Letöltés szerverről...</IDS_108>		
+		<IDS_109>Korszerűsítés...</IDS_109>
+		<IDS_110>Befejezett</IDS_110>
+		<IDS_111>A frissítés sikertelen</IDS_111>
+		<IDS_112>Igen</IDS_112>
+		<IDS_113>Nem</IDS_113>
+		<IDS_114>Új szoftvert szeretne telepíteni?</IDS_114>
+		<IDS_115>Törölni szeretné a DTC-t, a képkockaadatok rögzítését és a diagnosztikai teszt állapotinformációit?</IDS_115>
 	</HUN>
 	<SLO>
 		<IDS_0>Informácie o vozidle</IDS_0>
@@ -2017,6 +2341,24 @@
 		<IDS_95>        Prečítať znova</IDS_95>		
 		<IDS_96>        Vymazať</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Pred nadgradnjo morate prekiniti povezavo z napravo!</IDS_98>		
+		<IDS_99>Pridobivanje informacij iz oddaljenega strežnika ...</IDS_99>		
+		<IDS_100>Nadgradnja programske opreme in strojne programske opreme</IDS_100>		
+		<IDS_101>Različica programske opreme na strežniku:</IDS_101>		
+		<IDS_102>Različica strojne programske opreme na strežniku:</IDS_102>		
+		<IDS_103>Različica programske opreme na lokalnih:</IDS_103>		
+		<IDS_104>Različica strojne programske opreme na lokalni ravni:</IDS_104>		
+		<IDS_105>Nadgradnja</IDS_105>		
+		<IDS_106>Vzpostavljanje povezave s strežnikom ...</IDS_106>		
+		<IDS_107>Povezava s strežnikom</IDS_107>		
+		<IDS_108>Prenos iz strežnika ...</IDS_108>		
+		<IDS_109>Nadgradnjo...</IDS_109>
+		<IDS_110>Dokončan</IDS_110>
+		<IDS_111>Nadgradnja ni uspela</IDS_111>
+		<IDS_112>Da</IDS_112>
+		<IDS_113>Ne</IDS_113>
+		<IDS_114>Ali želite namestiti novo programsko opremo?</IDS_114>
+		<IDS_115>Ali želite počistiti DTC, zamrzniti podatke okvirja in diagnostične podatke o stanju preskusa?</IDS_115>
 	</SLO>
 	<PLK>
 		<IDS_0>Informacje o pojeździe</IDS_0>
@@ -2117,6 +2459,24 @@
 		<IDS_95>        Czytać znów</IDS_95>		
 		<IDS_96>        Wymazać</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Przed aktualizacją należy odłączyć się od urządzenia!</IDS_98>		
+		<IDS_99>Pobieranie informacji ze zdalnego serwera ...</IDS_99>		
+		<IDS_100>Aktualizacja oprogramowania i oprogramowania układowego</IDS_100>		
+		<IDS_101>Wersja oprogramowania na serwerze:</IDS_101>		
+		<IDS_102>Wersja oprogramowania na serwerze:</IDS_102>		
+		<IDS_103>Wersja oprogramowania lokalna:</IDS_103>		
+		<IDS_104>Wersja oprogramowania na lokalnym:</IDS_104>		
+		<IDS_105>Upgrade</IDS_105>		
+		<IDS_106>Łączenie się z serwerem...</IDS_106>		
+		<IDS_107>Połączony z serwerem</IDS_107>		
+		<IDS_108>Pobieranie z serwera...</IDS_108>		
+		<IDS_109>Uaktualnianie...</IDS_109>
+		<IDS_110>Zakończone</IDS_110>
+		<IDS_111>Uaktualnienie nie powiodło się</IDS_111>
+		<IDS_112>Tak</IDS_112>
+		<IDS_113>Nie</IDS_113>
+		<IDS_114>Czy chcesz zainstalować nowe oprogramowanie?</IDS_114>
+		<IDS_115>Czy chcesz skasować kod DTC, stop-klatkę i informacje o stanie testu diagnostycznego?</IDS_115>
 	</PLK>
 	<RUS>
 		<IDS_0>Информация об автомобиле</IDS_0>
@@ -2217,6 +2577,24 @@
 		<IDS_95>        Читать снова</IDS_95>		
 		<IDS_96>        Стереть</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Необходимо отключиться от устройства перед обновлением!</IDS_98>		
+		<IDS_99>Получение информации с удаленного сервера ...</IDS_99>		
+		<IDS_100>Обновление программного обеспечения и встроенного ПО</IDS_100>		
+		<IDS_101>Версия программного обеспечения на сервере:</IDS_101>		
+		<IDS_102>Версия прошивки на сервере:</IDS_102>		
+		<IDS_103>Версия программного обеспечения на локальных:</IDS_103>		
+		<IDS_104>Версия прошивки на локальной:</IDS_104>		
+		<IDS_105>Модернизировать</IDS_105>		
+		<IDS_106>Подключение к серверу...</IDS_106>		
+		<IDS_107>Подключен к серверу</IDS_107>		
+		<IDS_108>Загрузка с сервера...</IDS_108>		
+		<IDS_109>Совершенствование...</IDS_109>
+		<IDS_110>Завершённый</IDS_110>
+		<IDS_111>Сбой обновления</IDS_111>
+		<IDS_112>Да</IDS_112>
+		<IDS_113>Нет</IDS_113>
+		<IDS_114>Вы хотите установить новое программное обеспечение?</IDS_114>
+		<IDS_115>Вы хотите очистить DTC, данные стоп-кадра и информацию о состоянии диагностического теста?</IDS_115>
 	</RUS>
 	<THA>
 		<IDS_0>ข้อมูลยานพาหนะ</IDS_0>
@@ -2316,7 +2694,25 @@
 		<IDS_94>        ยก เลิก</IDS_94>		
 		<IDS_95>        อ่านอีกครั้ง</IDS_95>		
 		<IDS_96>        ลบ</IDS_96>		
-		<IDS_97>OK</IDS_97>		
+		<IDS_97>ตกลง</IDS_97>		
+		<IDS_98>ต้องตัดการเชื่อมต่อกับอุปกรณ์ก่อนอัพเกรด!</IDS_98>		
+		<IDS_99>ดึงข้อมูลจากเซิร์ฟเวอร์ระยะไกล ...</IDS_99>		
+		<IDS_100>อัพเกรดซอฟต์แวร์และเฟิร์มแวร์</IDS_100>		
+		<IDS_101>เวอร์ชันซอฟต์แวร์บนเซิร์ฟเวอร์:</IDS_101>		
+		<IDS_102>เวอร์ชั่นของเฟิร์มแวร์บนเซิร์ฟเวอร์:</IDS_102>		
+		<IDS_103>เวอร์ชันซอฟต์แวร์บนท้องถิ่น:</IDS_103>		
+		<IDS_104>เวอร์ชั่นเฟิร์มแวร์ในเครื่อง:</IDS_104>		
+		<IDS_105>อัพ เกรด</IDS_105>		
+		<IDS_106>กําลังเชื่อมต่อกับเซิร์ฟเวอร์...</IDS_106>		
+		<IDS_107>เชื่อมต่อกับเซิร์ฟเวอร์</IDS_107>		
+		<IDS_108>การดาวน์โหลดจากเซิร์ฟเวอร์...</IDS_108>		
+		<IDS_109>การอัพ เกรด   </IDS_109>
+		<IDS_110>เสร็จ สมบูรณ์</IDS_110>
+		<IDS_111>การอัพเกรดล้มเหลว</IDS_111>
+		<IDS_112>ใช่</IDS_112>
+		<IDS_113>ไม่ใช่</IDS_113>
+		<IDS_114>คุณต้องการติดตั้งซอฟต์แวร์ใหม่หรือไม่?</IDS_114>
+		<IDS_115>คุณต้องการล้าง DTC ตรึงข้อมูลเฟรมและข้อมูลสถานะการทดสอบการวินิจฉัยหรือไม่?</IDS_115>
 	</THA>
 	<ROM>
 		<IDS_0>Informații despre vehicul</IDS_0>
@@ -2417,5 +2813,23 @@
 		<IDS_95>        Citiți din nou</IDS_95>		
 		<IDS_96>        Șterge</IDS_96>		
 		<IDS_97>OK</IDS_97>		
+		<IDS_98>Trebuie să vă deconectați cu dispozitivul înainte de upgrade!</IDS_98>		
+		<IDS_99>Regăsirea informațiilor de la serverul de la distanță ...</IDS_99>		
+		<IDS_100>Software-ul și firmware-ul Upgrade</IDS_100>		
+		<IDS_101>Versiunea software pe server:</IDS_101>		
+		<IDS_102>Versiunea firmware-ului pe server:</IDS_102>		
+		<IDS_103>Versiunea software-ului pe locale:</IDS_103>		
+		<IDS_104>Versiunea firmware-ului pe locale:</IDS_104>		
+		<IDS_105>Upgrade</IDS_105>		
+		<IDS_106>Conectarea la server...</IDS_106>		
+		<IDS_107>Conectat cu serverul</IDS_107>		
+		<IDS_108>Descărcarea de pe server ...</IDS_108>		
+		<IDS_109>Upgrading...</IDS_109>
+		<IDS_110>Completat</IDS_110>
+		<IDS_111>Upgrade-ul nu a reușit</IDS_111>
+		<IDS_112>Da</IDS_112>
+		<IDS_113>Nu</IDS_113>
+		<IDS_114>Doriți să instalați un software nou?</IDS_114>
+		<IDS_115>Doriți să ștergeți DTC, să înghețați datele de cadru și informațiile despre starea testelor de diagnosticare?</IDS_115>
 	</ROM>
 </Messages>

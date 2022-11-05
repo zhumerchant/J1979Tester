@@ -435,7 +435,11 @@ public:
 					{
 						::PostMessage(this->GetHWND(), WM_CLOSE, 0, 0);
 					}
-				}		
+				}
+				else
+				{
+					static_cast<CTextUI*>(m_pm.FindControl(_T("tip_status")))->SetText(CPaintManagerUI::GetMultiLanguageString(110));
+				}
 			}
 			else if (msg.pSender == static_cast<CButtonUI*>(m_pm.FindControl(_T("btn_ok"))))
 			{
@@ -638,7 +642,7 @@ public:
 		m_pm.AttachDialog(pRoot);
 		m_pm.AddNotifier(this);
 
-		HANDLE hThread = CreateThread(NULL, 0, &CUpgradeDlg::RetriveInfoFromServerThreadProc, (LPVOID)this, 0, NULL);
+		HANDLE hThread = ::CreateThread(NULL, 0, &CUpgradeDlg::RetriveInfoFromServerThreadProc, (LPVOID)this, 0, NULL);
 		m_pBusyBoxDlg = new CBusyBoxDlg(CPaintManagerUI::GetMultiLanguageString(99));
 		m_pBusyBoxDlg->Create(::GetParent(m_hWnd), _T("BusyBoxDlg"), WS_POPUP | WS_VISIBLE, WS_EX_TOOLWINDOW, 0, 0, 300, 150);
 		m_pBusyBoxDlg->CenterWindow();
