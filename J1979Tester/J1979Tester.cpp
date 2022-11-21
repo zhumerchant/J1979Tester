@@ -140,7 +140,7 @@ int APIENTRY WinMain(
     {
         return 0;
     }
-    HRESULT Hr = ::CoInitialize(NULL);
+    HRESULT Hr = ::OleInitialize(NULL);
     if (FAILED(Hr)) return 0;
 
     CPaintManagerUI::SetInstance(hInstance);
@@ -231,7 +231,7 @@ int APIENTRY WinMain(
 
 	if (!theVehicleDb->Open(g_szLang))
 	{
-		::CoUninitialize();
+		::OleUninitialize();
 		return 0;
 	}
 
@@ -243,6 +243,6 @@ int APIENTRY WinMain(
     ::ShowWindow(*pFrame, SW_SHOW);
 
     CPaintManagerUI::MessageLoop();
-    ::CoUninitialize();
+    ::OleUninitialize();
     return 0;
 }

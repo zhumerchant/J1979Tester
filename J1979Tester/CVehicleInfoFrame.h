@@ -441,6 +441,7 @@ public:
 						pMessageBox->Create(m_hWnd, _T("MessageBoxDlg"), WS_POPUP | UI_WNDSTYLE_DIALOG, 0, 0, 0, 400, 250);
 						pMessageBox->CenterWindow();
 						pMessageBox->ShowModal();
+						theVehicleComm->DisconnectDevice();
 					}
 				}
 			}

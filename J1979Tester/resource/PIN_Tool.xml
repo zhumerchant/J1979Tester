@@ -11,18 +11,18 @@
 			<HorizontalLayout bkcolor="#FFFFFFFF" bordercolor="#FF768D9B" bordersize="1">
 				<TabLayout name="switch">
 					<HorizontalLayout>
-						<WebBrowser name="webbrowser_tis_reg" homepage="http://www.rokwy.com:8080" autonavi="true" delaycreate="false"/>
+						<WebBrowser name="webbrowser_tis_reg" homepage="http://rokwy.com:8080/PINTool/ToyotaTISRegist/" autonavi="true" delaycreate="false"/>
 					</HorizontalLayout>
 					<HorizontalLayout>
-						<WebBrowser name="webbrowser_hds_immo" homepage="http://www.rokwy.com:8080" autonavi="true" delaycreate="false"/>
+						<WebBrowser name="webbrowser_hds_immo" homepage="http://www.rokwy.com:8080/PINTool/HondaImmoPassword/" autonavi="true" delaycreate="false"/>
 					</HorizontalLayout>
 				</TabLayout>
 			</HorizontalLayout>
 			<Control width="5" />
 		</HorizontalLayout>
 		<HorizontalLayout float="true" pos="0,0,799,26">
-			<Option pos="5, 0, 156, 26" float="true" text="%{45}" name="tis_reg" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true" />
-			<Option pos="158, 0, 309, 26" float="true" text="%{46}" name="honda_immo" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" />
+			<Option pos="5, 0, 156, 26" float="true" text="%{46}" name="tis_reg" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true" />
+			<Option pos="158, 0, 309, 26" float="true" text="%{45}" name="honda_immo" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" />
 		</HorizontalLayout>
 	</VerticalLayout>
 </Window>

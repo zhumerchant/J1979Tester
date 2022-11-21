@@ -85,6 +85,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);DuiLib_ud.lib;CChartdu.lib;vld.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)duilib\Lib;$(SolutionDir)CChart\Dll\Bin;G:\Program Files (x86)\Visual Leak Detector\lib\Win32</AdditionalLibraryDirectories>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>
