@@ -81,7 +81,7 @@ static char* w2c(char* pcstr, const wchar_t* pwstr, size_t len)
 {
 	int nlength = (int)wcslen(pwstr);
 
-	//获取转换后的长度
+	//锟斤拷取转锟斤拷锟斤拷某锟斤拷锟?
 
 	int nbytes = WideCharToMultiByte(0, // specify the code page used to perform the conversion
 
@@ -103,7 +103,7 @@ static char* w2c(char* pcstr, const wchar_t* pwstr, size_t len)
 
 	if (nbytes > (int)len)   nbytes = (int)len;
 
-	// 通过以上得到的结果，转换unicode 字符为ascii 字符
+	// 通锟斤拷锟斤拷锟较得碉拷锟侥斤拷锟斤拷锟阶拷锟絬nicode 锟街凤拷为ascii 锟街凤拷
 
 	WideCharToMultiByte(0, // specify the code page used to perform the conversion
 
@@ -459,7 +459,11 @@ public:
 		int i;
 		TCHAR tszLocalFwVer[20];
 
+#ifdef BUILD_GODIAG
+		if (!ftpDwnldr.Download(_T("sw_j1979_godiag.dat")))
+#else
 		if (!ftpDwnldr.Download(_T("sw_j1979.dat")))
+#endif
 		{
 			pMainWnd->m_pBusyBoxDlg->Close();
 			return 1;
@@ -524,7 +528,11 @@ public:
 
 		if (0 != pMainWnd->m_strRemoteSoftVer.Compare(pMainWnd->m_strLocalSoftVer))
 		{
+#ifdef BUILD_GODIAG
+			if (!ftpDwnldr.Download(_T("sw_j1979_godiag.dat")))
+#else
 			if (!ftpDwnldr.Download(_T("sw_j1979.dat")))
+#endif
 			{
 				pMainWnd->m_pBusyBoxDlg->Close();
 				return 1;
@@ -761,7 +769,7 @@ public:
 
 	LRESULT OnSysCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 	{
-		// 有时会在收到WM_NCDESTROY后收到wParam为SC_CLOSE的WM_SYSCOMMAND
+		// 锟斤拷时锟斤拷锟斤拷锟秸碉拷WM_NCDESTROY锟斤拷锟秸碉拷wParam为SC_CLOSE锟斤拷WM_SYSCOMMAND
 		if (wParam == SC_CLOSE) {
 			::PostQuitMessage(0L);
 			bHandled = TRUE;

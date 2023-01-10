@@ -571,7 +571,7 @@ public:
 
 	LRESULT OnSysCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 	{
-		// 有时会在收到WM_NCDESTROY后收到wParam为SC_CLOSE的WM_SYSCOMMAND
+		// 锟斤拷时锟斤拷锟斤拷锟秸碉拷WM_NCDESTROY锟斤拷锟秸碉拷wParam为SC_CLOSE锟斤拷WM_SYSCOMMAND
 		if (wParam == SC_CLOSE) {
 			::PostQuitMessage(0L);
 			bHandled = TRUE;

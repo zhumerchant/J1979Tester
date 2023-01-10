@@ -905,7 +905,11 @@ bool CVehicleComm::LoadPassThruLibrary()
 	strcpy_s(strDllPath, MAX_PATH, "");
 	if (ERROR_SUCCESS == RegOpenKeyExA(
 		HKEY_LOCAL_MACHINE,
+#ifdef BUILD_GODIAG
+		"SOFTWARE\\PassThruSupport.04.04\\GODIAG - J2534",
+#else
 		"SOFTWARE\\PassThruSupport.04.04\\RKW - VNCI Nano",
+#endif
 		0,
 		KEY_READ,
 		&hKey))
@@ -4180,7 +4184,7 @@ bool CVehicleComm::ScanForChannel(void)
 	}
 
 	SBYTE_ARRAY InputMsg;
-	unsigned char FuncAddr[4]; // Functional address array ¨C address values defined in J2178-4
+	unsigned char FuncAddr[4]; // Functional address array ï¿½C address values defined in J2178-4
 
 	FuncAddr[0] = 0x6B;
 

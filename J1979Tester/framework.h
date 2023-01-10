@@ -27,4 +27,6 @@
 using namespace DuiLib;
 
 #define WM_CHANGELANG	(WM_USER + 1)
-#define SOFTWARE_VERSION	(_T("1.1"))
+#define SOFTWARE_VERSION	(_T("1.2"))
+
+//#define BUILD_GODIAG

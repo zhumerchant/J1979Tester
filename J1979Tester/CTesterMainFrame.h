@@ -221,7 +221,11 @@ public:
 
         m_pm.Init(m_hWnd);
         CDialogBuilder builder;
+#ifdef BUILD_GODIAG
+		CControlUI* pRoot = builder.Create(_T("skin_godiag.xml"), NULL, NULL, &m_pm);
+#else
         CControlUI* pRoot = builder.Create(_T("skin.xml"), NULL, NULL, &m_pm);
+#endif
         ASSERT(pRoot && "Failed to parse XML");
         m_pm.AttachDialog(pRoot);
         m_pm.AddNotifier(this);
@@ -317,7 +321,7 @@ public:
 
 	LRESULT OnSysCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 	{
-		// 有时会在收到WM_NCDESTROY后收到wParam为SC_CLOSE的WM_SYSCOMMAND
+		// 锟斤拷时锟斤拷锟斤拷锟秸碉拷WM_NCDESTROY锟斤拷锟秸碉拷wParam为SC_CLOSE锟斤拷WM_SYSCOMMAND
 		if (wParam == SC_CLOSE) {
 			::PostQuitMessage(0L);
 			bHandled = TRUE;
